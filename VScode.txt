@@ -1,0 +1,2 @@
+ctrl+alt+t  set toggle to terminal
+ctrl+1      set to toggle editor
