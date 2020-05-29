@@ -12,3 +12,10 @@ git clean 参数
 cd existing_git_repo
 git remote add origin https://gitee.com/si_ma_song/cpractice.git
 git push -u origin master
+
+git branch --set-upstream-to=origin/master master
+
+配置本地与远程仓库，请参考这篇博客
+https://blog.csdn.net/u012145252/article/details/80628451
+最终要的是收获这个命令的参数使用
+git pull origin master --allow-unrelated-histories
