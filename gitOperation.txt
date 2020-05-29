@@ -19,3 +19,5 @@ git branch --set-upstream-to=origin/master master
 https://blog.csdn.net/u012145252/article/details/80628451
 最终要的是收获这个命令的参数使用
 git pull origin master --allow-unrelated-histories
+
+git commit --amend -m "new message"
