@@ -1,2 +1,3 @@
 ctrl+alt+t  set toggle to terminal
 ctrl+1      set to toggle editor
+ctrl+G, then click down the number,number ,so you canru to that line,column the default column number is 0
