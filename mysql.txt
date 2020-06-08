@@ -1,3 +1,13 @@
+first you must start the mysql service, then you can connect it
+net start mysql
+net stop mysql
+mysql -u root -p
 show databases;   
 use tablename;
-exit       
+select database();
+create table tablename(
+  id type(4 length ) not null primary key auto_increment,
+  year date
+)                     //create a table
+drop table tablename  //delete the table
+exit
