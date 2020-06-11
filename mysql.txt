@@ -10,4 +10,9 @@ create table tablename(
   year date
 )                     //create a table
 drop table tablename  //delete the table
+insert into tablename values (value); // create
+delete from tablename where condition;  //delete
+update tablename set attr='new value',… where condition  //update
+select * from tablename where condition  //Retrieve
+rename table previous tablename to latest tablename;
 exit
