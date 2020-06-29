@@ -16,3 +16,7 @@ update tablename set attr='new value',… where condition  //update
 select * from tablename where condition  //Retrieve
 rename table previous tablename to latest tablename;
 exit
+
+watch out:
+when you attempt to import a backup sql to a new environment, you should install mysql.
+Then you should create a database and use it.At last, you can use source command.
