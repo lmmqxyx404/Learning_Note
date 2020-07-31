@@ -1,5 +1,5 @@
 git checkout . #本地所有修改的。没有的提交的，都返回到原来的状态
-git stash #把所有没有提交的修改暂存到stash里面。可用git stash pop回复。
+git stash #把所有没有提交的修改暂存到stash里面。可用git stash pop恢复。
 git reset --hard HASH #返回到某个节点，不保留修改。
 git reset --soft HASH #返回到某个节点。保留修改
 
@@ -28,3 +28,6 @@ git commit --amend -m "new message"
 以问号“?”通配单个字符；
 以方括号“[]”包含单个字符的匹配列表；
 以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+
+git config 记录git的本地配置
+git config --list 列出了相应的信息
