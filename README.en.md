@@ -1,20 +1,16 @@
 # git_test
 
 #### Description
-练习使用git的各种操作
+Practicing various operation
 
 #### Software Architecture
-Software architecture description
+I do not know
 
 #### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
+No Installation
 #### Instructions
 
-1.  xxxx
+1.  This project is like my learning note
 2.  xxxx
 3.  xxxx
 
