@@ -1,6 +1,11 @@
-first you must start the mysql service, then you can connect it
+# watch out
+first you must start the mysql service, then you can connect it.
+
+# In windows,first you must start up mysql service
 net start mysql
 net stop mysql
+
+# some frequent command
 mysql -u root -p
 show databases;   
 use tablename;

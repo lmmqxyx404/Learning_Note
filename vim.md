@@ -1,6 +1,8 @@
+# modes
 There are three modes command mode, insert mode, last line mode
 number+dd delete multiple lines.
 
+# different keyword value means various effect
 G cursor jump to the last line of the file.
 number + G cursor jump to the specified line of the file.
 gg cursor jump to the first line of the file.
