@@ -13,8 +13,9 @@ there are four states in it.
 3. a:hover
 4. a:active
 
-# differrence between :: and :
+# differrence between <font color="#ff3333"> :: </font> and <font color="#0033ff"> : </font>
 in general __::__ is used to indicate a <em>pseudo-element</em>,  __:__ represents <em>pseudo-class</em>.
+if there is not a dom in your html, then you can not bind a event to it.
 
 # px and rem relation
 1rem = per unit font-size in html    
@@ -33,3 +34,9 @@ If the height value is less than the font-size value.Then the text could not be 
 # the difference between em and rem.
 em could constantly find its fathet then get a value.
 if we use tag in a recursing way. Then calculate the px value by em could be awful.On the contrary, using rem could be perfect.Because computing the px value by rem is simple--just multiply the html tag value with rem value.   
+
+# background attributes are really many.
+background-size background-position
+
+# display and position and float are important to regulate the element position
+display can be flex block inline inline-block
