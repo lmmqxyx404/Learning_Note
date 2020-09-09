@@ -38,5 +38,8 @@ if we use tag in a recursing way. Then calculate the px value by em could be awf
 # background attributes are really many.
 background-size background-position
 
-# display and position and float are important to regulate the element position
+# display and position and float overflow are important to regulate the element position
 display can be flex block inline inline-block
+
+# ellipsis attribute
+``` text-overflow=ellipsis ```
