@@ -31,3 +31,8 @@ git commit --amend -m "new message"
 
 git config 记录git的本地配置
 git config --list 列出了相应的信息
+
+git log   observe relative commit log record;
+
+git branch -f master HEAD~3
+change the master branch to indicate to the 3rd ancestor of the HEAD;
