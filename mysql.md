@@ -13,7 +13,9 @@ select database();
 create table tablename(
   id type(4 length ) not null primary key auto_increment,
   year date
-)                     //create a table
+)                     
+: create a table
+
 drop table tablename  //delete the table
 insert into tablename values (value); // create
 delete from tablename where condition;  //delete
