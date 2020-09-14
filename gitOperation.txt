@@ -37,3 +37,6 @@ git branch -m <newname>
 change the branch name
 
 live server is important    
+
+git rm -r --cached .
+清除git中的缓存，进而使得.ignore文件生效
