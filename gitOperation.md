@@ -9,6 +9,7 @@ git clean 参数
     -f 删除 文件
     -df 删除 文件 和 目录
 
+# 建立本地仓库与远程空白仓库的联系
 cd existing_git_repo
 git remote add origin https://gitee.com/si_ma_song/cpractice.git
 git push -u origin master
