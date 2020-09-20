@@ -7,7 +7,8 @@ the character * can not add the directory name
 
 This example copies the contents of the C:\Logfiles directory into the existing C:\Drawings directory. The Logfiles directory isn't copied.
 
-If the Logfiles directory contains files in subdirectories, those subdirectories are copied with their file trees intact. By default, the Container parameter is set to True, which preserves the directory structure.
+If the Logfiles directory contains files in subdirectories, those subdirectories are copied with their file trees intact. 
+By default, the Container parameter is set to True, which preserves the directory structure.
 
 Copy-Item -Path "C:\Logfiles\*" -Destination "C:\Drawings" -Recurse
 

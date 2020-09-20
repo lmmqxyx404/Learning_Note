@@ -1,3 +1,8 @@
+# 建立本地仓库与远程空白仓库的联系
+cd existing_git_repo
+git remote add origin https://gitee.com/si_ma_song/cpractice.git
+git push -u origin master
+
 git checkout . #本地所有修改的。没有的提交的，都返回到原来的状态
 git stash #把所有没有提交的修改暂存到stash里面。可用git stash pop恢复。
 git reset --hard HASH #返回到某个节点，不保留修改。
@@ -9,9 +14,6 @@ git clean 参数
     -f 删除 文件
     -df 删除 文件 和 目录
 
-cd existing_git_repo
-git remote add origin https://gitee.com/si_ma_song/cpractice.git
-git push -u origin master
 
 git branch --set-upstream-to=origin/master master
 
@@ -22,6 +24,7 @@ git pull origin master --allow-unrelated-histories
 
 git commit --amend -m "new message"
 
+# .gitignore file
 .gitignore file
 以斜杠“/”开头表示目录；
 以星号“*”通配多个字符；
@@ -41,3 +44,7 @@ git branch -m <newname>
 change the branch name
 
 live server is important    
+
+# clear the git tree cached
+``` git rm -r --cached . ```
+清除git中的缓存，进而使得.ignore文件生效
