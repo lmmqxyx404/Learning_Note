@@ -1,3 +1,4 @@
+# ```copy-item```
 Copy-Item .\module\ 1023 -Recurse
 this cmdlet can copy the content in module to directory 1023
 Copy-Item .\module\* 1023 -Recurse 
@@ -18,3 +19,6 @@ Copy-Item -Path "C:\Logfiles" -Destination "C:\Drawings" -Recurse
 
 I can get the procedure to install powershell in raspberry pi4
 https://www.cnblogs.com/shanyou/p/6287890.html
+
+# ``` Start-Process -FilePath "powershell" -Verb RunAs ```
+This example starts PowerShell by using the Run as administrator option.
