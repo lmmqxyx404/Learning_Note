@@ -44,3 +44,5 @@ live server is important
 # clear the git tree cached
 ``` git rm -r --cached . ```
 清除git中的缓存，进而使得.ignore文件生效
+``` git rm --cached filename ```
+清除指定文件的缓存
