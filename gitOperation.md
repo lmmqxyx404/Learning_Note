@@ -47,6 +47,22 @@ live server is important
 
 # clear the git tree cached
 ``` git rm -r --cached . ```
-清除git中的缓存，进而使得.ignore文件生效
+清除git中所有文件的缓存，进而使得.ignore文件生效
 ``` git rm --cached filename ```
 清除指定文件的缓存
+
+git log   observe relative commit log record;
+
+git branch -f master HEAD~3
+change the master branch to indicate to the 3rd ancestor of the HEAD;
+=======
+git branch -m <oldname> <newname>
+git branch -m <newname>
+change the branch name
+
+
+
+warning: LF will be replaced by CRLF in .gitignore.
+solve the above problem to [here][link]
+
+[link]: https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important
