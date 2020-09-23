@@ -9,3 +9,8 @@
 1. 首先搜索当前目录下的node_modules
 2. 然后在全局进行搜索
 3. 临时下载一个模块，最后卸载掉
+
+# NPM NRM NVM CNPM N NPX definition
+NPM node package manager
+NRM node registry manager
+NVM node version manager
