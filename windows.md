@@ -2,6 +2,8 @@
 
 [这是官方链接][link]
 
+### some shortcuts
+``` ctrl+esc ```  open start menu
 
 
 
