@@ -14,3 +14,13 @@
 NPM node package manager
 NRM node registry manager
 NVM node version manager
+commen useful command:  ``` xxx --help ```
+
+
+# NVM relative command
+``` nvm proxy http://example.com:8080 ``` set the proxy
+
+# uninstall node.js and relative package
+here is the [link][link1]
+
+[link1]: https://blog.csdn.net/lewky_liu/article/details/87959839
