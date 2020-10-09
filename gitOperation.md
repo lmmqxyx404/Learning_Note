@@ -39,11 +39,12 @@ git log   observe relative commit log record;
 
 git branch -f master HEAD~3
 change the master branch to indicate to the 3rd ancestor of the HEAD;
-git branch -m <oldname> <newname>
-git branch -m <newname>
-change the branch name
-
-live server is important    
+# change the branch name
+```git branch -m <oldname> <newname>```
+```git branch -m <newname>```
+# delete the branch 
+```git branch -d <branchName>```
+```git push origin --delete <branchName> ```
 
 # clear the git tree cached
 ``` git rm -r --cached . ```
@@ -53,13 +54,10 @@ live server is important
 
 git log   observe relative commit log record;
 
-git branch -f master HEAD~3
+# git branch -f master HEAD~3
 change the master branch to indicate to the 3rd ancestor of the HEAD;
-=======
-git branch -m <oldname> <newname>
-git branch -m <newname>
-change the branch name
-
+---------------------
+live server is important
 
 
 warning: LF will be replaced by CRLF in .gitignore.

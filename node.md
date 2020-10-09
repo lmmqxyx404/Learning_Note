@@ -23,4 +23,8 @@ commen useful command:  ``` xxx --help ```
 # uninstall node.js and relative package
 here is the [link][link1]
 
+# remove the node_modules in current project
+``` npm install rimraf -g ```
+``` rimraf node_modules  ```
+
 [link1]: https://blog.csdn.net/lewky_liu/article/details/87959839

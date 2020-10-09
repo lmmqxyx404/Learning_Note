@@ -1,6 +1,6 @@
 
 # vue react和原生H5开发的不同
-原生更有利于做SEO
+原生更有利于做SEO,方便被搜索引擎收录
 
 # 大型项目中的数据流
 子组件的数据可以在父组件创建的时候进行请求与加载
@@ -16,6 +16,7 @@
 # 项目崩溃的解决思路
 可以在package.json文件中，按照如下方法设置serve属性，可以解决前端大型项目中内存溢出问题,不同框架解决思路大同小异。具体可以搜索一下
 "serve": "node --max_old_space_size=4096 node_modules/@vue/cli-service/bin/vue-cli-service.js serve ",
+上述代码从docx中粘贴时，可能会出现未知错误
 ``` FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory ```
 
 # 当生命周期函数没有执行的时候，切记要记得检查大括号的位置
