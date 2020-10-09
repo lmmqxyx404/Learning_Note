@@ -6,6 +6,7 @@ number+dd delete multiple lines.
 G cursor jump to the last line of the file.
 number + G cursor jump to the specified line of the file.
 gg cursor jump to the first line of the file.
+
 escape(ESC)  alter the mode 
 h j k l means different arrows
 d$ delete the character from the cursor to the tail of the line.
