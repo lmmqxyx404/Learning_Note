@@ -58,7 +58,13 @@ git log   observe relative commit log record;
 change the master branch to indicate to the 3rd ancestor of the HEAD;
 
 # git tag command
-```git tag -a v0.1 -m "comment" [hash5]``` Set the tag for specific git commit and add the relative comment.If the hash5 is void, then the command will add a tag for current commit
+```git tag -a v0.1 -m "comment" [hash5]``` 
+Set the tag for specific git commit and add the relative comment.If the hash5 is void, then the command will add a tag for current commit
+``` git show <tagname> ``` 
+Show the relative tag information
+``` git push origin <tagname> ```
+push the local tag to origin
+
 ---------------------
 live server is important
 
