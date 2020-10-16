@@ -27,4 +27,10 @@ here is the [link][link1]
 ``` npm install rimraf -g ```
 ``` rimraf node_modules  ```
 
+# npm install 
+``` npm i [-g] [-d] [-s] ```
+i indicates install
+g means --global
+s is --save   It will write the pacjage name to the dependency in package.json
+d means --save-dev   It will write the pacjage name to the dependency in package.json
 [link1]: https://blog.csdn.net/lewky_liu/article/details/87959839
