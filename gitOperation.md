@@ -56,6 +56,20 @@ git log   observe relative commit log record;
 
 # git branch -f master HEAD~3
 change the master branch to indicate to the 3rd ancestor of the HEAD;
+
+# git tag command
+```git tag -a v0.1 -m "comment" [hash5]``` 
+Set the tag for specific git commit and add the relative comment.If the hash5 is void, then the command will add a tag for current commit
+``` git show <tagname> ``` 
+Show the relative tag information
+``` git push origin <tagname> ```
+push the local tag to origin
+
+# git set proxy
+```git config --global http.https://github.com.proxy https://127.0.0.1:1080 ```
+``` git config --global https.https://github.com.proxy https://127.0.0.1:1080 ```
+if you want to unset the proxy, please it is better to edit the .gitconfig file in windows
+
 ---------------------
 live server is important
 
