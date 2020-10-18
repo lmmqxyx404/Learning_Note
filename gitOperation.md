@@ -68,7 +68,7 @@ push the local tag to origin
 # git set proxy
 ```git config --global http.https://github.com.proxy https://127.0.0.1:1080 ```
 ``` git config --global https.https://github.com.proxy https://127.0.0.1:1080 ```
-if you want to unset the proxy, please it is better to edit the .gitconfig file in windows
+if you want to unset the proxy,it is better to edit the .gitconfig file in windows
 
 ---------------------
 live server is important
