@@ -2,13 +2,29 @@
 When you install some extentions or set some PATH value. The VS code could not take effect at once.
 You can reopen the VS code to solve the problem.
 
-ctrl+alt+t  set toggle to terminal
-ctrl+1      set to toggle editor
-ctrl+G, then click down the number,number ,so you canru to that line,column the default column number is 0
-alt + i  give code intelligence
+# Toggle between terminal and editor
+``` ctrl+alt+t ```
+Focus on terminal
 
+``` ctrl+1 ```
+Focus on the first editor
+
+``` Ctrl + Shift + 5 ```
+New a terminal while focusing the terminal
+
+``` Alt + arrow(←) ```
+Toggle the terminal
+
+# Editor shortcuts
 ``` shift+alt+arrow(↓) ```
 copy the current line content to the next line and the cursour focus on the next line.The content is not from the paste.
+
+``` alt + i ```
+ give code intelligence
+
+
+``` ctrl+G ``` 
+Then click down the number,number ,so you canru to that line,column the default column number is 0
 
 
 [The article][link] taught me how to toggle between powershell and editor area!

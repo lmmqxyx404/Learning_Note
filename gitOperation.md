@@ -70,6 +70,14 @@ push the local tag to origin
 ``` git config --global https.https://github.com.proxy https://127.0.0.1:1080 ```
 if you want to unset the proxy,it is better to edit the .gitconfig file in windows
 
+# git reset | git revert
+``` git reset --hard hashValue ```
+This command will make the current branch back to the hashValue.
+And there is no history(using git log)
+``` git revert hashValue ```
+This command will save the operation log but it will only reset the relative commit.
+So I prefer the former command while developing based on the latest branch
+
 ---------------------
 live server is important
 
