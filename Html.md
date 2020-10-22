@@ -4,3 +4,7 @@
 
 # use tags
 html5 tags is in priority
+
+# some attributue should be deprecated
+The detail should be showed in MDN.
+It is deprecated to use summary in table

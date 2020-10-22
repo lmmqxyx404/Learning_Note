@@ -79,7 +79,7 @@ This command will save the operation log but it will only reset the relative com
 So I prefer the former command while developing based on the latest branch
 
 # git remote update -p
-show the remote branch
+show the remote branch.
 ---------------------
 live server is important
 
