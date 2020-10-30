@@ -1,7 +1,10 @@
 # 建立本地仓库与远程空白仓库的联系
+
+```
 cd existing_git_repo
 git remote add origin https://gitee.com/si_ma_song/cpractice.git
 git push -u origin master
+```
 
 git checkout . #本地所有修改的。没有的提交的，都返回到原来的状态
 git stash #把所有没有提交的修改暂存到stash里面。可用git stash pop恢复。
@@ -22,7 +25,8 @@ https://blog.csdn.net/u012145252/article/details/80628451
 最终要的是收获这个命令的参数使用
 git pull origin master --allow-unrelated-histories
 
-git commit --amend -m "new message"
+``` git commit --amend -m "new message" ```
+修改提交信息
 
 # .gitignore file
 .gitignore file
@@ -35,13 +39,16 @@ git commit --amend -m "new message"
 git config 记录git的本地配置
 git config --list 列出了相应的信息
 
-git log   observe relative commit log record;
+# observe the cocmmit history
+``` git log ```   observe relative commit log record;
 
 git branch -f master HEAD~3
 change the master branch to indicate to the 3rd ancestor of the HEAD;
+
 # change the branch name
 ```git branch -m <oldname> <newname>```
 ```git branch -m <newname>```
+
 # delete the branch 
 ```git branch -d <branchName>```
 ```git push origin --delete <branchName> ```
