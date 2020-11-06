@@ -41,6 +41,9 @@ git config --list 列出了相应的信息
 
 # observe the cocmmit history
 ``` git log ```   observe relative commit log record;
+``` git log --name-status ``` observe the commit filename and the operation type
+``` git log --stat ```  show the total changed files andd the details
+``` git show ``` show the latest commit content
 
 git branch -f master HEAD~3
 change the master branch to indicate to the 3rd ancestor of the HEAD;
@@ -73,7 +76,7 @@ Show the relative tag information
 push the local tag to origin
 
 # git set proxy
-```git config --global http.https://github.com.proxy https://127.0.0.1:1080 ```
+``` git config --global http.https://github.com.proxy https://127.0.0.1:1080 ```
 ``` git config --global https.https://github.com.proxy https://127.0.0.1:1080 ```
 if you want to unset the proxy,it is better to edit the .gitconfig file in windows
 
@@ -87,6 +90,7 @@ So I prefer the former command while developing based on the latest branch
 
 # git remote update -p
 show the remote branch.
+
 ---------------------
 live server is important
 

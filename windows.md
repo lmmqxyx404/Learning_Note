@@ -4,6 +4,7 @@
 
 ### some shortcuts
 ``` ctrl+esc ```  open start menu 
+``` win+. ```    open the emoj editor 🤣 and enter backspace can exit.
 
 
 
