@@ -32,6 +32,12 @@ Select the variable quickly and it is editable.
 Toggle between the word without shift.If press shift you can select many words as you can.
 The command is useful mixed with ctrl+d.
 
+``` ctrl|shift +  + enter ```
+'ctrl' means adding a new line and the mouse toggled to the new line.
+
+``` [shift] + home|end ```
+select from the current position to the head or the end
+
 [The article][link] taught me how to toggle between powershell and editor area!
 ctrl + k + s then write down focus terminal
 
