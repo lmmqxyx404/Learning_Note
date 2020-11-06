@@ -16,23 +16,23 @@ New a terminal while focusing the terminal
 Toggle the terminal
 
 # Editor shortcuts
-``` shift+alt+arrow(↓) ```
+``` shift + alt + arrow(↓) ```
 copy the current line content to the next line and the cursour focus on the next line.The content is not from the paste.
 
 ``` alt + i ```
  give code intelligence
 
-``` ctrl+G ``` 
+``` ctrl + G ``` 
 Then write down the number,number and press enter, so you can run to that line,column the default column number is 0
 
-``` ctrl+D ```
+``` ctrl + D ```
 Select the variable quickly and it is editable.
 
-``` ctrl+[shift]+arrow(←) ```
+``` ctrl + [shift] + arrow(←) ```
 Toggle between the word without shift.If press shift you can select many words as you can.
 The command is useful mixed with ctrl+d.
 
-``` ctrl|shift +  + enter ```
+``` ctrl|shift +  enter ```
 'ctrl' means adding a new line and the mouse toggled to the new line.
 
 ``` [shift] + home|end ```
