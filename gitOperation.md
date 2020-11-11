@@ -20,8 +20,8 @@ git clean 参数
 
 git branch --set-upstream-to=origin/master master
 
-配置本地与远程仓库，请参考这篇博客
-https://blog.csdn.net/u012145252/article/details/80628451
+配置本地与远程仓库，请参考[这篇博客][blog]
+
 最终要的是收获这个命令的参数使用
 git pull origin master --allow-unrelated-histories
 
@@ -36,13 +36,14 @@ git pull origin master --allow-unrelated-histories
 以方括号“[]”包含单个字符的匹配列表；
 以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
 
+# show the configuration information about git 
 git config 记录git的本地配置
 git config --list 列出了相应的信息
 
 # observe the cocmmit history
 ``` git log ```   observe relative commit log record;
 ``` git log --name-status ``` observe the commit filename and the operation type
-``` git log --stat ```  show the total changed files andd the details
+``` git log --stat ```  show the total changed files and the details
 ``` git show ``` show the latest commit content
 
 git branch -f master HEAD~3
@@ -92,10 +93,12 @@ So I prefer the former command while developing based on the latest branch
 show the remote branch.
 
 ---------------------
-live server is important
+Live server is important
 
 
 warning: LF will be replaced by CRLF in .gitignore.
 solve the above problem to [here][link]
 
 [link]: https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important
+
+[blog]:https://blog.csdn.net/u012145252/article/details/80628451

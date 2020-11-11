@@ -35,4 +35,7 @@ s is --save   It will write the package name to the dependency in package.json
 d means --save-dev   It will write the pacjage name to the dependency in package.json
 The package will be added to the node_modules dir.If there is no parameter(d|s|g)
 
+# get the command line parameter
+``` process.argv[index] ``` in genereal,index is greater than 1.
+
 [link1]: https://blog.csdn.net/lewky_liu/article/details/87959839
