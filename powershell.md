@@ -22,3 +22,5 @@ https://www.cnblogs.com/shanyou/p/6287890.html
 
 # ``` Start-Process -FilePath "powershell" -Verb RunAs ```
 This example starts PowerShell by using the Run as administrator option.
+
+# $PROFILE indictates the default powershell script file path
