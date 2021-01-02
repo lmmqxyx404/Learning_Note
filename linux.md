@@ -4,3 +4,8 @@
    - `yum list`   show installed software
    - `yum update`   update software
    - `yum remove softwarename`   remove software
+
+## vmvare network setting
+nat
+howt only
+direct link
