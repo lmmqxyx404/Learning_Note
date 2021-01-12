@@ -1,4 +1,4 @@
-# 建立本地仓库与远程空白仓库的联系
+# build the connection between the local and the remote empty(repository) 建立本地仓库与远程空白仓库的联系
 
 ```
 cd existing_git_repo
@@ -6,7 +6,7 @@ git remote add origin https://gitee.com/si_ma_song/cpractice.git
 git push -u origin master
 ```
 
-git checkout . #本地所有修改的。没有的提交的，都返回到原来的状态
+git checkout . # 本地所有修改的。没有的提交的，都返回到原来的状态
 git stash #把所有没有提交的修改暂存到stash里面。可用git stash pop恢复。
 git reset --hard HASH #返回到某个节点，不保留修改。
 git reset --soft HASH #返回到某个节点。保留修改
@@ -30,8 +30,8 @@ git pull origin master --allow-unrelated-histories
 
 # .gitignore file
 .gitignore file
-以斜杠“/”开头表示目录；
-以星号“*”通配多个字符；
+'/'matches directory 以斜杠“/”开头表示目录；
+'*' matches random character 以星号“*”通配多个字符；
 以问号“?”通配单个字符；
 以方括号“[]”包含单个字符的匹配列表；
 以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
@@ -79,6 +79,8 @@ push the local tag to origin
 # git set proxy
 ``` git config --global http.https://github.com.proxy https://127.0.0.1:1080 ```
 ``` git config --global https.https://github.com.proxy https://127.0.0.1:1080 ```
+``` git config --global http.https://domain.com.proxy http://proxyUsername:proxyPassword@proxy.server.com:port ```
+``` git config --global http.https://domain.com.sslVerify false ```
 if you want to unset the proxy,it is better to edit the .gitconfig file in windows
 
 # git reset | git revert
