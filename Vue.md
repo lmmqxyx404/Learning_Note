@@ -34,4 +34,7 @@
 # vue 中操作DOM的方式
 1. 直接使用原生DOM对象
 2. 使用jQuery语法
-3. 使用 ```$ref``` 
+3. 使用 ```$ref```
+
+# Vue + TypeScript
+The tsconfig.json file is indispensable

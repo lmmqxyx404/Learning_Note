@@ -23,4 +23,11 @@ https://www.cnblogs.com/shanyou/p/6287890.html
 # ``` Start-Process -FilePath "powershell" -Verb RunAs ```
 This example starts PowerShell by using the Run as administrator option.
 
+#  ``` about_Execution_Policies ``` problem
+The default Execution_Policy is Restricted.So you need to do eleminate the restriction by manual.
+``` Set-ExecutionPolicy -ExecutionPolicy Unrestricted ``` Then press Y
+
+# ``` ls | Where-Object { $_.Mode.Substring(0,1) -eq 'd'} | ls | ForEach-Object {$_.Name} ```
+show all items of the child directory
+
 # $PROFILE indictates the default powershell script file path
