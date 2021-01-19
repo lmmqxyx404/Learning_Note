@@ -31,10 +31,15 @@
 
 # 前端设置代理，解决跨域类似问题后，注意要重新启动整个项目，否则请求地址不生效。 相应的也需要后端配合，查看是否有前端请求。尽量避免此类防呆问题
 
-# vue 中操作DOM的方式
+# vue 中操作DOM的方式 (2.x)
 1. 直接使用原生DOM对象
 2. 使用jQuery语法
 3. 使用 ```$ref```
 
 # Vue + TypeScript
-The tsconfig.json file is indispensable
+
+# 开发中碰到 不断的 sockjs-node/info?t=1554978**** 网络请求错误，注意可能是代理软件接受了相应的网络请求，关闭代理即可
+
+# VUE中的一些配置文件
+## 1. 记得可以禁用eslint 配置文件，编写.prettierc文件进行代码格式化
+## 2. The tsconfig.json file is indispensable when use TypeScript
