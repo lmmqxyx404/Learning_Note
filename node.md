@@ -41,6 +41,7 @@ The package will be added to the node_modules dir.If there is no parameter(d|s|g
 # About package.json file
 ``` npm package name: major.minor.patch ```
 major: New architechure.And in general, it mot be compatible with the old version
-minor:
+minor: Add some new features as planed
+patch: fix some bugs
 
 [link1]: https://blog.csdn.net/lewky_liu/article/details/87959839
