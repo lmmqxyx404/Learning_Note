@@ -36,10 +36,12 @@
 2. 使用jQuery语法
 3. 使用 ```$ref```
 
-# Vue + TypeScript
+# Vue + TypeScript 开发 OA 系统(Office Automation) 
 
 # 开发中碰到 不断的 sockjs-node/info?t=1554978**** 网络请求错误，注意可能是代理软件接受了相应的网络请求，关闭代理即可
 
 # VUE中的一些配置文件
 ## 1. 记得可以禁用eslint 配置文件，编写.prettierc文件进行代码格式化
 ## 2. The tsconfig.json file is indispensable when use TypeScript
+## 3. 查看vue/cli网站关于.env相关文件的配置
+## 4. TypeScript 中接口和api暴露方式可以统一用一个文件夹来表示
