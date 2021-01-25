@@ -41,6 +41,8 @@ select from the current position to the head or the end
 [The article][link] taught me how to toggle between powershell and editor area!
 ctrl + k + s then write down focus terminal
 
+``` ctrl+shift+e ```
+Toggle to the file manager.
 
 [link]: https://blog.csdn.net/Jeffxu_lib/article/details/86651173
 
