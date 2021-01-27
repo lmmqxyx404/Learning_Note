@@ -20,7 +20,7 @@ Toggle the terminal
 copy the current line content to the next line and the cursour focus on the next line.The content is not from the paste.
 
 ``` alt + i ```
- give code intelligence
+Give code intelligence(trigger suggest)
 
 ``` ctrl + G ``` 
 Then write down the number,number and press enter, so you can run to that line,column the default column number is 0

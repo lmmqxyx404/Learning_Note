@@ -9,3 +9,9 @@
 nat
 howt only
 direct link
+
+## get the linux system information
+```cat /etc/xxx-release```
+```uname -a```
+```lshw``` show the all hardware
+```lsmem``` show the memory info
