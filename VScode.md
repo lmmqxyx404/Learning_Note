@@ -20,7 +20,7 @@ Toggle the terminal
 copy the current line content to the next line and the cursour focus on the next line.The content is not from the paste.
 
 ``` alt + i ```
- give code intelligence
+Give code intelligence(trigger suggest)
 
 ``` ctrl + G ``` 
 Then write down the number,number and press enter, so you can run to that line,column the default column number is 0
@@ -41,6 +41,8 @@ select from the current position to the head or the end
 [The article][link] taught me how to toggle between powershell and editor area!
 ctrl + k + s then write down focus terminal
 
+``` ctrl+shift+e ```
+Toggle to the file manager.
 
 [link]: https://blog.csdn.net/Jeffxu_lib/article/details/86651173
 

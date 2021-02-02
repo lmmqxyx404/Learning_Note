@@ -45,3 +45,7 @@
 ## 2. The tsconfig.json file is indispensable when use TypeScript
 ## 3. 查看vue/cli网站关于.env相关文件的配置
 ## 4. TypeScript 中接口和api暴露方式可以统一用一个文件夹来表示
+
+# 在uniapp中使用Vue 
+## 1. 这个框架中有个特殊的原生类型nvue(native vue)
+## 2. pages.json文件中设置 tabBar 值时，注意pagePath，必须与pages中的path完全一致
