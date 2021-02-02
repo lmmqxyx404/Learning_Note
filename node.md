@@ -39,9 +39,12 @@ The package will be added to the node_modules dir.If there is no parameter(d|s|g
 ``` process.argv[index] ``` in genereal,index is greater than 1.
 
 # About package.json file
-``` npm package name: major.minor.patch ```
+## ``` npm package name: major.minor.patch ```
 major: New architechure.And in general, it mot be compatible with the old version
 minor: Add some new features as planed
 patch: fix some bugs
+
+## ``` npm run script ```
+In VUE, you can customize .env.name file to indicate the profile. So you can configure multiple environments.For instance, you can set a dev-mock file for simulation data. 
 
 [link1]: https://blog.csdn.net/lewky_liu/article/details/87959839

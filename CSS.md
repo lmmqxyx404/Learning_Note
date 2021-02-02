@@ -43,3 +43,7 @@ display can be flex block inline inline-block
 
 # ellipsis attribute
 ``` text-overflow=ellipsis ```
+
+# canvas tag
+## change the canvas area
+Please change the canvas attribute(width height) and not change the css style(px)

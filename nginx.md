@@ -4,4 +4,8 @@
 ## 3. High availability
 
 ## Common proxy concepts
-### 1. 
+### 1. Forward Proxy
+The proxy is setted by client and the users know their requests are transferred
+
+### 2. Reverse Proxy
+The proxy is used by server and people can not know if the flow goes through the proxy server

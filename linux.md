@@ -7,5 +7,5 @@
 
 ## vmvare network setting
 nat
-howt only
+host only
 direct link
