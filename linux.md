@@ -1,3 +1,7 @@
+# shell 
+``` nohup script & ```
+keep in mind that the path must be absolute.
+
 ## <font color=#880000> Centos7 </font>
  - #### frecuent software command
    - `yum install softwarename`   install target software
