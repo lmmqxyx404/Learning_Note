@@ -1,8 +1,8 @@
 # the effect
 it can use ajax to load the part of the wep page.
-For example
+For example pull down the H5 page.
 
-# The application scenario
+## The application scenario
 1. pull down to update the page
 2. enter the login form and judge the content
 3. search engin provides us more intelligent tips

@@ -20,3 +20,6 @@ direct link
 ```uname -a```
 ```lshw``` show the all hardware
 ```lsmem``` show the memory info
+
+## set the site
+Keep in mind that port can only be used by one application.Otherwise it will be conflicted.
