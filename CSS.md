@@ -47,3 +47,7 @@ display can be flex block inline inline-block
 # canvas tag
 ## change the canvas area
 Please change the canvas attribute(width height) and not change the css style(px)
+
+# response settings
+use @media
+Pay attention to change the body position.

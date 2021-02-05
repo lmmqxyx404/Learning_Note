@@ -4,3 +4,6 @@
 1. 是否对原数组有影响
 2. 中途能否中断
 3. 是否有返回值组成新数组
+
+# 当有不懂的DOM或者BOM API要查询时，首先考虑MDN
+## 1. You can set the clipboard to read or write the content.
