@@ -16,7 +16,7 @@ git clean 参数
     -n 显示 将要 删除的 文件 和  目录
     -f 删除 文件
     -df 删除 文件 和 目录
-
+    -x 删除ignore中的文件
 
 git branch --set-upstream-to=origin/master master
 
