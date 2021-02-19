@@ -46,4 +46,37 @@ Current installation options:
 ``` $ENV:RUSTUP_DIST_SERVER='https://mirrors.ustc.edu.cn/rust-static' ```
 ``` $ENV:RUSTUP_UPDATE_ROOT='https://mirrors.ustc.edu.cn/rust-static/rustup' ```
 
-# when you use rustlings,you can change the origin to speed up.
+# When you use rustlings(or try to install relative dependencies),you can change the origin to speed up.
+in general, you shouhld add a config file named ```config``` (without any type name) under ```.cargo ``` directory. Here are the [content][link]
+```
+# 放到 `$HOME/.cargo/config` 文件中
+[source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
+
+# 替换成你偏好的镜像源
+replace-with = 'sjtu'
+#replace-with = 'ustc'
+
+# 清华大学
+[source.tuna]
+registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+
+# 中国科学技术大学
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+# 上海交通大学
+[source.sjtu]
+registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index"
+
+# rustcc社区
+[source.rustcc]
+registry = "git://crates.rustcc.cn/crates.io-index"
+
+```
+
+
+
+
+
+[link]:https://learnku.com/articles/49977

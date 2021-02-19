@@ -49,11 +49,22 @@
 # 在uniapp中使用Vue 
 ## 1. 这个框架中有个特殊的原生类型nvue(native vue)
 ## 2. pages.json文件中设置 tabBar 值时，注意pagePath，必须与pages中的path完全一致
-## 3. uniapp 中image标签与标准的是不一致的
+## 3. uniapp 中image标签与标准(img)的是不一致的
 
 # Vuex
 ## 1. mutation 是用来处理同步的请求的，action是用来处理异步请求的。state最好与computed一一对应。
-
+## 2. state中的某个属性是对象时，注意该对象中的属性值发生变化时，不会触发getters。
+### demo
+```
+state:{
+  attr:{
+    id:2
+  }
+}
+```
+当id发生变化时，依赖它的getters不会发生变化。因此在特定业务场景下，可以考虑属性用basic value。
 # Vue-Router
 ## 1. VueRouter 重点了解掌握编程式路由还有路由传递参数
+### 路由传参时，注意在注册路由时，是否要保留相关路径接收相关参数
+``` /:id ``` 这种情况下必须接收参数
 ## 2. VueRouter 中的导航守卫与axios(ajax)中的请求/相应拦截器是不一样的

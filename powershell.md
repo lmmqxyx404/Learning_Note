@@ -11,11 +11,12 @@ This example copies the contents of the C:\Logfiles directory into the existing 
 If the Logfiles directory contains files in subdirectories, those subdirectories are copied with their file trees intact. 
 By default, the Container parameter is set to True, which preserves the directory structure.
 
-Copy-Item -Path "C:\Logfiles\*" -Destination "C:\Drawings" -Recurse
+# Pay attention to the difference
+## ```Copy-Item -Path "C:\Logfiles\*" -Destination "C:\Drawings" -Recurse```
 
 If you need to include the Logfiles directory in the copy, remove the \* from the Path. For example:
 
-Copy-Item -Path "C:\Logfiles" -Destination "C:\Drawings" -Recurse
+## ```Copy-Item -Path "C:\Logfiles" -Destination "C:\Drawings" -Recurse ```
 
 I can get the procedure to install powershell in raspberry pi4
 https://www.cnblogs.com/shanyou/p/6287890.html
