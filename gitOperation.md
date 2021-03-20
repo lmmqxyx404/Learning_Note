@@ -94,8 +94,11 @@ So I prefer the former command while developing based on the latest branch
 # git remote update -p
 show the remote branch.
 
+# LF or CRLF
+```git config --global core.autocrlf true|false|input```
+
 ---------------------
-Live server is important
+Live server is importantv
 
 
 warning: LF will be replaced by CRLF in .gitignore.

@@ -16,7 +16,7 @@ create table tablename(
 )                     
 : create a table
 
-source pathname //
+source pathname; //The path should be originated from the root 
 drop table tablename  //delete the table
 insert into tablename values (value); // create
 delete from tablename where condition;  //delete
