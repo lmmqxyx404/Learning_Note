@@ -15,7 +15,10 @@ NPM node package manager
 NRM node registry manager
 NVM node version manager
 commen useful command:  ``` xxx --help ```
-
+## about nrm
+```npm config ls```If the node is win32 program, Then try to change a file(See the error information)
+``` const NRMRC = path.join(process.env.HOME, '.nrmrc')(Delete);```
+``` const NRMRC = path.join(process.env.USERPROFILE, '.nrmrc')(New);```
 
 # NVM relative command
 ``` nvm proxy http://example.com:8080 ``` set the proxy

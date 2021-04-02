@@ -14,7 +14,9 @@ nat
 host only
 direct link
 
-
+## set no password login
+1. get the user rsa.pub.key
+2. try to put the content to the server ``` ~/.ssh/authorized_keys```
 ## get the linux system information
 ```cat /etc/xxx-release```
 ```uname -a```
