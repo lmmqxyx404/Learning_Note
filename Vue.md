@@ -54,6 +54,7 @@
 # Vuex
 ## 1. mutation 是用来处理同步的请求的，action是用来处理异步请求的。state最好与computed一一对应。
 ## 2. state中的某个属性是对象时，注意该对象中的属性值发生变化时，不会触发getters。
+### 2.1 因此要更新state中某个key，key对应的数据类型不是基本类型(primitive type)，要使用Vue.set()
 ### demo
 ```
 state:{
