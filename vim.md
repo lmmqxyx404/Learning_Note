@@ -11,6 +11,7 @@ escape(ESC)  alter the mode
 h j k l means different arrows
 d$ delete the character from the cursor to the tail of the line.
 d0 delete the character from the cursor to the head of the line.
+d means delete the content and copy the content to clip
 y$ y0 yy the same function like delete, But this command means duplicate
 p paste the data on the next line
 J connect the cursor with the next line(pay attention that J is capital)
