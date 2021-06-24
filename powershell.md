@@ -31,4 +31,9 @@ The default Execution_Policy is Restricted.So you need to do eleminate the restr
 # ``` ls | Where-Object { $_.Mode.Substring(0,1) -eq 'd'} | ls | ForEach-Object {$_.Name} ```
 show all items of the child directory
 
+# ``` Get-ChildItem -Recurse -Filter *.json```
+This cmdlet helps us get same type files
 # $PROFILE indictates the default powershell script file path
+
+# This link indicates the Remove-item high-level functions
+[link](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item?view=powershell-7.1)
