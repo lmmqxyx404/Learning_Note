@@ -1,6 +1,5 @@
 # shell 
-``` nohup script & ```
-keep in mind that the path must be absolute.
+
 
 ## <font color=#880000> Centos7 </font>
  - #### frecuent software command
@@ -25,3 +24,25 @@ direct link
 
 ## set the site
 Keep in mind that port can only be used by one application.Otherwise it will be conflicted.
+
+# linux tools
+## ```nftables```
+This tool is used for dealing with the data. nf means net filter.
+
+# shell scripts
+- ## type 
+  This command can test whether the input command is a builtin.
+  - ### builtin
+    `cd` `pwd` `kill`
+- ## read
+  the command can read the input from the user and ```enter``` can break the string.
+
+- ## echo
+  output the content. 
+
+  ```
+  $a="hello"
+  echo "$a world"
+  ```
+- ## ``` nohup script & ```
+  keep in mind that the path must be absolute.

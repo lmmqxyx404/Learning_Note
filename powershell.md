@@ -33,7 +33,13 @@ show all items of the child directory
 
 # ``` Get-ChildItem -Recurse -Filter *.json```
 This cmdlet helps us get same type files
+
+# ``` New-NetFirewallRule ```
+new a firewall rule
 # $PROFILE indictates the default powershell script file path
 
+# ``` Read-Host ``
+Read the parameters from the input of the user and differs from the beginging input
+we can access the value by ```$args[index]```
 # This link indicates the Remove-item high-level functions
 [link](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item?view=powershell-7.1)
