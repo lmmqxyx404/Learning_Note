@@ -22,8 +22,12 @@ insert into tablename values (value); // create
 delete from tablename where condition;  //delete
 update tablename set attr='new value',… where condition  //update
 select * from tablename where condition  //Retrieve
+## rename
 rename table previous tablename to latest tablename;
+## exit
 exit
+## show mysql port
+show global variables like 'port';
 
 watch out:
 when you attempt to import a backup sql to a new environment, you should install mysql.

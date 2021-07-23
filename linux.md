@@ -36,12 +36,13 @@ This tool is used for dealing with the data. nf means net filter.
     `cd` `pwd` `kill`
 - ## read
   the command can read the input from the user and ```enter``` can break the string.
+  There is a command named ```read-host```  as ```read```
 
 - ## echo
   output the content. 
 
   ```
-  $a="hello"
+  a="hello"
   echo "$a world"
   ```
 - ## ``` nohup script & ```
