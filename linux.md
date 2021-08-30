@@ -47,3 +47,5 @@ This tool is used for dealing with the data. nf means net filter.
   ```
 - ## ``` nohup script & ```
   keep in mind that the path must be absolute.
+- ## ```ctrl+r```
+  input former command fastly
