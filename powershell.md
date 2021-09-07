@@ -41,5 +41,8 @@ new a firewall rule
 # ``` Read-Host ``
 Read the parameters from the input of the user and differs from the beginging input
 we can access the value by ```$args[index]```
+
+# ```$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding```
+set the powershell as UTF-8.And you must add the former content to $PROFILE.
 # This link indicates the Remove-item high-level functions
 [link](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item?view=powershell-7.1)
