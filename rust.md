@@ -75,8 +75,10 @@ registry = "git://crates.rustcc.cn/crates.io-index"
 
 ```
 
+# cargo run restart
+Please read the [passage][link2]
 
 
 
-
+[link2]:https://stackoverflow.com/questions/29461693/how-can-i-get-cargo-to-recompile-changed-files-automatically
 [link]:https://learnku.com/articles/49977
