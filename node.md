@@ -50,4 +50,7 @@ patch: fix some bugs
 ## ``` npm run script ```
 In VUE, you can customize .env.name file to indicate the profile. So you can configure multiple environments.For instance, you can set a dev-mock file for simulation data. 
 
+## ```yarn upgrade-interactive --latest```
+upgrade the package
+
 [link1]: https://blog.csdn.net/lewky_liu/article/details/87959839

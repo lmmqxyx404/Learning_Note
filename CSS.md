@@ -51,3 +51,8 @@ Please change the canvas attribute(width height) and not change the css style(px
 # response settings
 use @media
 Pay attention to change the body position.
+
+# modify css problem
+1. ## use ctrl+shift+p select a element
+2. ## delete the element from stem to stern and observe the page diversification
+   watch out: x scroll could influence y scroll

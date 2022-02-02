@@ -5,6 +5,9 @@ first you must start the mysql service, then you can connect it.
 net start mysql
 net stop mysql
 
+# add big files(my.ini)
+max_allowed_packet=64M
+
 # some frequent command
 mysql -u root -p
 show databases;   
@@ -21,6 +24,11 @@ drop table tablename  //delete the table
 insert into tablename values (value); // create
 delete from tablename where condition;  //delete
 update tablename set attr='new value',… where condition  //update
+```
+update type set icon="<SmileOutlined />" where Id=3;
+update type set icon="<LikeOutlined />" where Id=99;
+
+```
 select * from tablename where condition  //Retrieve
 ## rename
 rename table previous tablename to latest tablename;

@@ -43,6 +43,7 @@ Current installation options:
 ```
 
 # if the download speed is too low, then try the following way. remember to execute the rustup-init.exe in the later command line.If your computer system is linux, then change the .sh file.
+The command is only used to speed up rustup-init.exe.
 ``` $ENV:RUSTUP_DIST_SERVER='https://mirrors.ustc.edu.cn/rust-static' ```
 ``` $ENV:RUSTUP_UPDATE_ROOT='https://mirrors.ustc.edu.cn/rust-static/rustup' ```
 

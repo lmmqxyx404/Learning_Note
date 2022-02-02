@@ -15,4 +15,4 @@ The proxy is used by server and people can not know if the flow goes through the
 restart the nginx server
 
 ``` nginx -t ```
-test the nginx conf file
+test the nginx conf

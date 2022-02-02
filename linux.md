@@ -1,5 +1,13 @@
 # shell 
 
+## top
+The command can help us get system running information
+
+## who(ami)
+The command can help us know the current onlined user
+
+## ```pkill -kill -t pts/2```
+This command can help us kill the pts/2
 
 ## <font color=#880000> Centos7 </font>
  - #### frecuent software command
@@ -14,8 +22,17 @@ host only
 direct link
 
 ## set no password login
-1. get the user rsa.pub.key
+1. get the user id_rsa.pub.key
 2. try to put the content to the server ``` ~/.ssh/authorized_keys```
+3. ### server ssh config files
+   ``` /etc/ssh/sshd_config ```
+   - ``` # useRsA verify
+        RSAAuthentication yes
+        PubkeyAuthentication yes
+        # select filePath
+        AuthorsizedKeysFile.ssh/authorized_keys
+      ```
+   - you can specify the ssh port in the file
 ## get the linux system information
 ```cat /etc/xxx-release```
 ```uname -a```
@@ -47,3 +64,5 @@ This tool is used for dealing with the data. nf means net filter.
   ```
 - ## ``` nohup script & ```
   keep in mind that the path must be absolute.
+- ## ```ctrl+r```
+  input former command fastly

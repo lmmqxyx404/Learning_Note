@@ -7,3 +7,12 @@
 
 # 当有不懂的DOM或者BOM API要查询时，首先考虑MDN
 ## 1. You can set the clipboard to read or write the content.
+search the MDN
+
+# BOM
+## 1. listen to fresh or close the pge event.
+```
+window.addEventListener('beforeunload', ()=>{
+    window.navigator.sendBeacon('http://localhost:8081',JSON.stringify({"data":'bye!'}))
+})
+```
