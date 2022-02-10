@@ -77,8 +77,8 @@ Show the relative tag information
 push the local tag to origin
 
 # git set proxy
-``` git config --global http.https://github.com.proxy https://127.0.0.1:1080 ```
-``` git config --global https.https://github.com.proxy https://127.0.0.1:1080 ```
+``` git config --global http.https://github.com.proxy http://127.0.0.1:1080 ```
+``` git config --global https.https://github.com.proxy http://127.0.0.1:1080 ```
 ``` git config --global http.https://domain.com.proxy http://proxyUsername:proxyPassword@proxy.server.com:port ```
 ``` git config --global http.https://domain.com.sslVerify false ```
 if you want to unset the proxy,it is better to edit the .gitconfig file in windows
