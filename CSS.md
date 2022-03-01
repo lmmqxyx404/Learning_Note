@@ -56,3 +56,13 @@ Pay attention to change the body position.
 1. ## use ctrl+shift+p select a element
 2. ## delete the element from stem to stern and observe the page diversification
    watch out: x scroll could influence y scroll
+
+# z-index settings
+if you want to set an item is in front of another, you'd better set the property on the brother level.
+
+# Layouts
+## one should pay more attention to grid and flex
+Because flex and frid are really more friendly.
+
+### About flex
+```flex-grow: 1 ``` means expand the space.(When other items all have the default value 0)

@@ -1,6 +1,8 @@
 # development Dependency
 如果一个模块在运行的时候并不需要，仅仅在开发时才需要，就可以放到devDependencies中。
 这样，正式打包发布时，devDependencies的包不会被包含进来。
+If a module is not needed at runtime, but only at development time, it can be placed in devDependencies.
+This way, packages from devDependencies will not be included in the official package release.
 
 # show modules installed in global
 ``` npm list -g --depth=0 ```

@@ -69,3 +69,8 @@ state:{
 ### 路由传参时，注意在注册路由时，是否要保留相关路径接收相关参数
 ``` /:id ``` 这种情况下必须接收参数
 ## 2. VueRouter 中的导航守卫与axios(ajax)中的请求/响应拦截器是不一样的
+
+# VUE3 + TS
+VUE3 supports ts more friendly.
+vue-global-api 
+a useful plugin
