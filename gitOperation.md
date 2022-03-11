@@ -27,6 +27,7 @@ git pull origin master --allow-unrelated-histories
 
 ``` git commit --amend -m "new message" ```
 修改提交信息
+modify the commit message
 
 # .gitignore file
 .gitignore file
@@ -60,11 +61,17 @@ change the master branch to indicate to the 3rd ancestor of the HEAD;
 # clear the git tree cached
 ``` git rm -r --cached . ```
 清除git中所有文件的缓存，进而使得.ignore文件生效
+clear the cache of all files in the project so that .ignore file works.
 ``` git rm --cached filename ```
 清除指定文件的缓存
+clear cache of specific file.
 
-git log   observe relative commit log record;
+# observe all relavant historical commit information
+```git log```
+observe relative commit log record.
 
+``` git log --reverse```
+with reverse order to view the info.
 # git branch -f master HEAD~3
 change the master branch to indicate to the 3rd ancestor of the HEAD;
 
