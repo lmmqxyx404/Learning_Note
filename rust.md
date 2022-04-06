@@ -87,6 +87,8 @@ Here is a useful [link][link3]
 ### cargo-watch
 ### cargo-limit
 
+### cargo-edit
+This can indicate the dependency version
 # About more details
 ## primitive types
 ### fn
