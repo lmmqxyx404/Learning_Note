@@ -1,3 +1,11 @@
+<!--
+ * @Author: Lmmqxyx
+ * @Date: 2022-02-10 13:47:27
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-04-08 17:40:15
+ * @FilePath: \Learning_Note\nginx.md
+ * @Description: 
+-->
 # The nginx core concepts
 ## 1. Transparent proxy
 ## 2. Load balance
@@ -16,3 +24,19 @@ restart the nginx server
 
 ``` nginx -t ```
 test the nginx conf
+
+# nginx.conf files
+```mime.types``` indicates the different types.
+``` default_type application/octet-stream```
+
+# nginx deploy a html page
+## deploy prefix router.
+read these chapters [link1] [link2] [link3] [link4]
+Pay more attention to the path.
+
+
+
+[link1]: https://www.hangge.com/blog/cache/detail_3140.html
+[link2]: https://juejin.cn/post/6920046170110689293
+[link3]: https://segmentfault.com/a/1190000039046545
+[link4]: https://juejin.cn/post/6926785971287490573
