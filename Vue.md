@@ -76,4 +76,6 @@ vue-global-api
 a useful plugin
 
 # vue.config.js
+## devServer
 关于设置代理，必须明确，代理只有在本地开发时才需要。部署到线上，也就是生产环境时，是不需要的。因此必须注意环境变量在.env文件中的设置
+此外 代理设置  部署到线上时，要与nginx相配合

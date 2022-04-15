@@ -25,7 +25,10 @@ git branch --set-upstream-to=origin/master master
 最终要的是收获这个命令的参数使用
 git pull origin master --allow-unrelated-histories
 
+# about commit
 ``` git commit --amend -m "new message" ```
+``` git commit --no-verify -m "new message" ```
+This command can skip the verify process.
 修改提交信息
 modify the commit message
 
