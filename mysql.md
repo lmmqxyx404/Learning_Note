@@ -1,3 +1,11 @@
+<!--
+ * @Author: Lmmqxyx
+ * @Date: 2022-02-10 13:47:27
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-05-16 13:18:47
+ * @FilePath: \Learning_Note\mysql.md
+ * @Description: 
+-->
 # watch out
 first you must start the mysql service, then you can connect it.
 
@@ -9,6 +17,17 @@ net stop mysql
 max_allowed_packet=64M
 
 # some frequent command
+
+## create a table
+CREATE TABLE IF NOT EXISTS `player`(
+   `player_id` VARCHAR(40) ,
+   `part_id` VARCHAR(40) ,
+   `job_name` VARCHAR(40) ,
+   `charac_name` VARCHAR(40) ,
+   `uin` VARCHAR(40) ,
+   `contact_uin` VARCHAR(40)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 mysql -u root -p
 show databases;   
 use tablename;
@@ -21,6 +40,7 @@ create table tablename(
 
 source pathname; //The path should be originated from the root 
 drop table tablename  //delete the table
+truncate table table_name // clear a table
 insert into tablename values (value); // create
 delete from tablename where condition;  //delete
 update tablename set attr='new value',… where condition  //update
@@ -36,6 +56,11 @@ rename table previous tablename to latest tablename;
 exit
 ## show mysql port
 show global variables like 'port';
+show global variables like '%secure_file_priv%';
+
+## export data to outfile "D:\mine.xls"
+before you export, tou must set the secure_file_priv=''
+```select * from table_name into outfile "D:\mine.xls";```
 
 watch out:
 when you attempt to import a backup sql to a new environment, you should install mysql.

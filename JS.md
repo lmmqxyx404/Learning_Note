@@ -1,3 +1,11 @@
+<!--
+ * @Author: Lmmqxyx
+ * @Date: 2022-02-10 13:47:27
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-05-16 14:12:52
+ * @FilePath: \Learning_Note\JS.md
+ * @Description: 
+-->
 # 注意，script标签引入资源的时候，顺序非常重要
 
 # 数组原型的遍历方法的三大特征
@@ -16,3 +24,8 @@ window.addEventListener('beforeunload', ()=>{
     window.navigator.sendBeacon('http://localhost:8081',JSON.stringify({"data":'bye!'}))
 })
 ```
+
+# Object
+## Object.defineProperty(obj, prop, descriptor)
+Property descriptors present in objects come in two main flavors:
+data descriptors and accessor descriptors
