@@ -55,4 +55,12 @@ In VUE, you can customize .env.name file to indicate the profile. So you can con
 ## ```yarn upgrade-interactive --latest```
 upgrade the package
 
+# npm package
+## eslint
+
+### eslint is a format tool
+There is an [article][link2] about the tool
+
+
 [link1]: https://blog.csdn.net/lewky_liu/article/details/87959839
+[link2]: http://obkoro1.com/web_accumulate/accumulate/tool/Eslint%E8%87%AA%E5%8A%A8%E4%BF%AE%E5%A4%8D%E6%A0%BC%E5%BC%8F%E9%94%99%E8%AF%AF.html#vscode%E4%BF%9D%E5%AD%98%E6%97%B6%E8%87%AA%E5%8A%A8%E4%BF%AE%E5%A4%8Deslint%E9%94%99%E8%AF%AF

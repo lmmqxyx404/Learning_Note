@@ -93,6 +93,7 @@ This can indicate the dependency version
 ## primitive types
 ### fn
 function pointer
+
 ### bool
 ### all kinds of numbers
 ### char
