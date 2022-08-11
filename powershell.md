@@ -51,3 +51,9 @@ we can access the value by ```$args[index]```
 set the powershell as UTF-8.And you must add the former content to $PROFILE.
 # This link indicates the Remove-item high-level functions
 [link](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item?view=powershell-7.1)
+
+# close the monitor
+
+```
+(Add-Type '[DllImport("user32.dll")]public static extern int SendMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::SendMessage(-1,0x0112,0xF170,2)
+```
