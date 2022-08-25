@@ -1,3 +1,12 @@
+# Ubuntu diary
+
+## change the source
+The default source address is not suitable for Chinese uses.So you'd better to change it.
+```
+sudo vi 
+```
+
+
 # shell 
 
 ## top
