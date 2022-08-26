@@ -1,11 +1,3 @@
-<!--
- * @Author: Lmmqxyx
- * @Date: 2022-02-10 13:47:27
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-05-16 13:18:47
- * @FilePath: \Learning_Note\mysql.md
- * @Description: 
--->
 # watch out
 first you must start the mysql service, then you can connect it.
 

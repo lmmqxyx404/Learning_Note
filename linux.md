@@ -1,11 +1,38 @@
-# Ubuntu diary
+# Ubuntu diary (based on Ubuntu22.04 LTS)
 
-## change the source
+##  day1
+### change the source
 The default source address is not suitable for Chinese uses.So you'd better to change it.
+There are two ways
+1. change the config files
 ```
 sudo vi 
 ```
 
+2. use the GUI
+
+### set proxy
+1. set global proxy
+You can set global proxy by changing the Settings/Network/Network Proxy.
+You can use the following command to check your behaviour.
+``` echo $https_proxy ```
+
+2. set apt proxy
+This is slightly more complex.
+[This article][proxy] would help you a lot
+When you complete relatice settings.Try the followings commands
+``` sudo apt update && sudo apt upgrade ```
+
+## day2
+### install the amd drives
+I suffered a lot.
+
+### 
+[This Chinese article][article] really helped a lot.
+[Here][original] is the original author, Thanks a lot.
+And if you must solve the software version problem.
+Try the following command (pay attention to the =)
+``` sudo apt install libc6=2.35-0ubuntu3 ```
 
 # shell 
 
@@ -85,3 +112,7 @@ This tool is used for dealing with the data. nf means net filter.
 - ## ```ctrl+r```
 
   input former command fastly
+
+[article]: https://tsukkomi.org/post/install-amdgpu-on-ubuntu-22-04
+[original]: https://github.com/RadeonOpenCompute/ROCm/issues/1713#issuecomment-1193100466
+[proxy]: https://phoenixnap.com/kb/ubuntu-proxy-settings
