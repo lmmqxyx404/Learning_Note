@@ -1,3 +1,8 @@
+# default system means windows_10
+
+## set the default start app
+win + R
+input  shell:startup
 <h3>如果电脑开机内存占用过高，请调整一下虚拟内存，这点很重要</h3>
 
 [这是官方链接][link]
