@@ -29,3 +29,9 @@ window.addEventListener('beforeunload', ()=>{
 ## Object.defineProperty(obj, prop, descriptor)
 Property descriptors present in objects come in two main flavors:
 data descriptors and accessor descriptors
+
+### descriptor
+writable
+configurable
+enumerable
+value
