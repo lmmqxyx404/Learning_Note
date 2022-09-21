@@ -14,3 +14,6 @@ a powerful video player
 
 # editor
 ## visual studio code
+
+# zip
+## 7zip
