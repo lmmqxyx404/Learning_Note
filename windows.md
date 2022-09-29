@@ -3,8 +3,8 @@
 ## set the default start app
 win + R
 input  shell:startup
-<h3>如果电脑开机内存占用过高，请调整一下虚拟内存，这点很重要</h3>
 
+### 如果电脑开机内存占用过高，请调整一下虚拟内存，这点很重要
 [这是官方链接][link]
 
 ### some shortcuts
