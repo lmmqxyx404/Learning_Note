@@ -34,6 +34,7 @@ And if you must solve the software version problem.
 Try the following command (pay attention to the =)
 ``` sudo apt install libc6=2.35-0ubuntu3 ```
 
+### day3
 # shell 
 
 ## top
