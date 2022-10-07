@@ -36,6 +36,8 @@ Try the following command (pay attention to the =)
 
 ### day3
 # shell 
+remember to add the shell file header
+``` #!/bin/bash ```
 
 ## top
 The command can help us get system running information
@@ -64,7 +66,6 @@ direct link
 2. try to put the content to the server ```~/.ssh/authorized_keys```
 
 3. ### server ssh config files    ``` /etc/ssh/sshd_config ```
-
    - ```
         # useRsA verify
         RSAAuthentication yes
