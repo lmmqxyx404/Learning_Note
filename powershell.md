@@ -43,7 +43,7 @@ add the content to support "UTF-8"
 $OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding 
 ```
 
-# ``` Read-Host ``
+# ``` Read-Host ```
 Read the parameters from the input of the user and differs from the beginging input
 we can access the value by ```$args[index]```
 
