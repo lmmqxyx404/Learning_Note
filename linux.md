@@ -39,6 +39,12 @@ Try the following command (pay attention to the =)
 remember to add the shell file header
 ``` #!/bin/bash ```
 
+
+注意，进入recovery模式，可以调整启动顺序
+
+
+
+
 ## top
 The command can help us get system running information
 
