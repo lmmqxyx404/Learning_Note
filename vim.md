@@ -1,6 +1,9 @@
 # modes
-There are three modes command mode, insert mode, last line mode
-number+dd delete multiple lines.
+There are three modes
+1. command mode
+2. insert mode
+3. last line mode
+
 
 # different keyword value means various effect
 G cursor jump to the last line of the file.
@@ -9,9 +12,14 @@ gg cursor jump to the first line of the file.
 
 escape(ESC)  alter the mode 
 h j k l means different arrows
+## delete lines or characters
 d$ delete the character from the cursor to the tail of the line.
 d0 delete the character from the cursor to the head of the line.
 d means delete the content and copy the content to clip
+number+dd delete multiple lines.
+x can delete a character.
+
+## duplicate the lines
 y$ y0 yy the same function like delete, But this command means duplicate
 p paste the data on the next line
 J connect the cursor with the next line(pay attention that J is capital)
