@@ -27,7 +27,6 @@ When you complete relatice settings.Try the followings commands
 ### install the amd drives
 I suffered a lot.
 
-### 
 [This Chinese article][article] really helped a lot.
 [Here][original] is the original author, Thanks a lot.
 And if you must solve the software version problem.
@@ -35,11 +34,11 @@ Try the following command (pay attention to the =)
 ``` sudo apt install libc6=2.35-0ubuntu3 ```
 
 ### day3
-# shell 
+#### about shell 
 remember to add the shell file header
 ``` #!/bin/bash ```
 
-
+#### adjust the default boot menu
 注意，进入recovery模式，可以调整启动顺序
 
 
