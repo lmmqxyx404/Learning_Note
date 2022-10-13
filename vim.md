@@ -6,6 +6,7 @@ There are three modes
 
 
 # different keyword value means various effect
+## jump to the specioic content
 G cursor jump to the last line of the file.
 number + G cursor jump to the specified line of the file.
 gg cursor jump to the first line of the file.
