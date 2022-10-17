@@ -9,7 +9,7 @@ net stop mysql
 max_allowed_packet=64M
 
 # some frequent command
-
+The operations of most databases are similar to the tables;
 ## create a table
 CREATE TABLE IF NOT EXISTS `player`(
    `player_id` VARCHAR(40) ,
@@ -20,17 +20,26 @@ CREATE TABLE IF NOT EXISTS `player`(
    `contact_uin` VARCHAR(40)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+## link the mysql
 mysql -u root -p
-show databases;   
+
+##
+show databases;
+## 
 use tablename;
 select database();
+
+## create a table
 create table tablename(
   id type(4 length ) not null primary key auto_increment,
   year date
 )                     
 : create a table
 
+## import a mysql
 source pathname; //The path should be originated from the root 
+
+## crud operation in a table
 drop table tablename  //delete the table
 truncate table table_name // clear a table
 insert into tablename values (value); // create
