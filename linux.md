@@ -41,6 +41,9 @@ remember to add the shell file header
 #### adjust the default boot menu
 注意，进入recovery模式，可以调整启动顺序
 
+### day4
+#### ctrl+alt+t open the shell
+the default path is `/home/user_name/`.
 
 
 
