@@ -86,7 +86,7 @@ Here is a useful [link][link3]
 ##  dev tools
 ### cargo-watch
 ### cargo-limit
-
+### cross
 ### cargo-edit
 This can indicate the dependency version
 # About more details
