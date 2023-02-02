@@ -11,6 +11,12 @@ Install the LTS version of Node.js
 ### ``` pnpm env remove --global 14.0.0```
 remove the specific node version.
 
-## add a package
+### Print remotely available Node.js v16 specific versions:
+```pnpm env list --remote 16[option]```
+
+## opearaations about package
 ### ``` pnpm add -g package```
 add a package globally.
+
+### ``` pnpm up ```
+upgrade the packages of the current project.

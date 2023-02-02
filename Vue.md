@@ -39,9 +39,19 @@
 
 # 后端返回的数据不是总是可靠的，实际开发中要考虑兼容性
 
+# Vue 语法特性
+## SFC single file component
 
+## 可以为行为绑定动态事件
+比如说，单击响应A，或者双击响应A
+## 注意常见的事件修饰符含义 stop prevent
 
+## 补充指令
+### v-once 只需要渲染一次
+### v-memo 作用不大
 
+## 虚拟 DOM 原理
+### 生成抽象语法树（AST）
 # vue 中操作DOM的方式 (2.x)
 1. 直接使用原生DOM对象
 2. 使用jQuery语法
@@ -86,6 +96,23 @@ state:{
 VUE3 supports ts more friendly.
 vue-global-api 
 a useful plugin
+
+## Vue3 特性
+### ref isRef shallowRef
+```ref``` 使用 proxy 劫持对象，实现深层次响应式更新
+```isRef``` 检测对象是否被 ref 包裹
+```shallowRef``` 一般用于保护第三方库对象
+```ref shallowRef``` 一般不能一起修改，否则会引起shallowRef更新
+
+### triggerRef customRef
+triggerRef 强制更新收集到的依赖  类似于```Vue.$set()```
+
+### lifecycle
+#### different lifecycles
+|||
+|--|--|
+|directive||
+|keep-alive||
 
 # vue.config.js
 ## 前端设置代理，解决跨域类似问题后，注意要重新启动整个项目，否则请求地址不生效。 相应的也需要后端配合，查看是否有前端请求。尽量避免此类防呆问题

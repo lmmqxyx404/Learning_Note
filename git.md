@@ -129,7 +129,7 @@ show the remote branch.
 ```git config --global core.autocrlf true|false|input```
 
 ---------------------
-Live server is importantv
+Live server is important
 
 
 warning: LF will be replaced by CRLF in .gitignore.
