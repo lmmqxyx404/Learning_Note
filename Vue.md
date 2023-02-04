@@ -111,8 +111,8 @@ triggerRef 强制更新收集到的依赖  类似于```Vue.$set()```
 #### different lifecycles
 |||
 |--|--|
-|directive||
-|keep-alive||
+|directive|多了两个生命周期|
+|keep-alive|  多了两个独特的生命周期  |
 
 # vue.config.js
 ## 前端设置代理，解决跨域类似问题后，注意要重新启动整个项目，否则请求地址不生效。 相应的也需要后端配合，查看是否有前端请求。尽量避免此类防呆问题
