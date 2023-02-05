@@ -37,3 +37,9 @@ enumerable
 value
 
 ## about 
+
+# GC (garbage collect)
+There are two mainly ways.
+## Reference-counting
+
+## Mark-and-sweep algorithm
