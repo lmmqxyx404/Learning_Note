@@ -46,6 +46,7 @@ remember to add the shell file header
 the default path is `/home/user_name/`.
 
 ### day5
+#### soft and hard link
 
 ## top
 The command can help us get system running information
