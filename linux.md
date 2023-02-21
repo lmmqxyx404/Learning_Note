@@ -48,6 +48,28 @@ the default path is `/home/user_name/`.
 ### day5
 #### soft and hard link
 
+### day6
+#### learn to write systemd files
+##### 1. write down the service file(named first)
+basic systemd service:
+```
+[Unit]
+Description=my first service
+
+[Service]
+ExecStart=/bin/bash /user/xxx/Desktop/test.sh
+
+# set for add to start menu
+[Install]
+WantedBy=multi-user.target
+```
+##### 2. move the service file to /etc/systemd/system
+##### 3. ```systemctl daemon-reload```
+##### 4. ```systemctl start first.service```
+##### 5. ```systemctl status first.service```
+##### 6. ```systemctl stop first.service```
+##### 7. ```systemctl enable first.service```
+
 ## top
 The command can help us get system running information
 
@@ -123,6 +145,29 @@ This tool is used for dealing with the data. nf means net filter.
 - ## ```ctrl+r```
 
   input former command fastly
+
+# about service
+```
+重新加载service文件：systemctl daemon-reload
+
+启动一个服务：systemctl start nginx-1.13.0.service
+
+关闭一个服务：systemctl stop nginx-1.13.0.service
+
+重启一个服务：systemctl restart nginx-1.13.0.service
+
+显示一个服务的状态：systemctl status nginx-1.13.0.service
+
+在开机时启用一个服务：systemctl enable nginx-1.13.0.service
+
+在开机时禁用一个服务：systemctl disable nginx-1.13.0.service
+
+查看服务是否开机启动：systemctl is-enabled nginx-1.13.0.service
+
+查看已启动的服务列表：systemctl list-unit-files|grep enabled
+
+查看启动失败的服务列表：systemctl --failed
+```
 
 [article]: https://tsukkomi.org/post/install-amdgpu-on-ubuntu-22-04
 [original]: https://github.com/RadeonOpenCompute/ROCm/issues/1713#issuecomment-1193100466
