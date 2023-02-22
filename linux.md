@@ -3,13 +3,12 @@
 ##  day1
 ### change the source
 The default source address is not suitable for Chinese uses.So you'd better to change it.
-There are two ways
-1. change the config files
+<b>There are two ways:</b>
+ - 1. change the config files(deprecated)
 ```
-sudo vi 
+sudo vi /etc/apt/sources.list
 ```
-
-2. use the GUI
+- 2. use the GUI
 
 ### set proxy
 1. set global proxy
@@ -48,8 +47,7 @@ the default path is `/home/user_name/`.
 ### day5
 #### soft and hard link
 
-### day6
-#### learn to write systemd files
+### day6 learn to write systemd files
 ##### 1. write down the service file(named first)
 basic systemd service:
 ```
@@ -69,6 +67,8 @@ WantedBy=multi-user.target
 ##### 5. ```systemctl status first.service```
 ##### 6. ```systemctl stop first.service```
 ##### 7. ```systemctl enable first.service```
+
+### day7 study crontab(cron table)
 
 ## top
 The command can help us get system running information

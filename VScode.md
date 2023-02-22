@@ -16,33 +16,41 @@ New a terminal while focusing the terminal
 Toggle the terminal
 
 # Editor shortcuts
-``` shift + alt + arrow(↓) ```
-copy the current line content to the next line and the cursour focus on the next line.The content is not from the paste.
+- ``` ctrl+shift+` ```
+ Oprn the terminal window
 
-``` alt + i ```
-Give code intelligence(trigger suggest)
+- ``` shift + alt + arrow(↓) ```
+ copy the current line content to the next line and the cursour focus on the next line.The content is not from the paste.
 
-``` ctrl + G ``` 
-Then write down the number,number and press enter, so you can run to that line,column the default column number is 0
+- ``` alt + i ```
+ Give code intelligence(trigger suggest)
 
-``` ctrl + D ```
-Select the variable quickly and it is editable.
+- ``` ctrl + G ``` 
+ Then write down the number,number and press enter, so you can run to that line,column the default column number is 0
 
-``` ctrl + [shift] + arrow(←) ```
-Toggle between the word without shift.If press shift you can select many words as you can.
-The command is useful mixed with ctrl+d.
+- ``` ctrl + D ```
+ Select the variable quickly and it is editable.
 
-``` ctrl|shift +  enter ```
-'ctrl' means adding a new line and the mouse toggled to the new line.
+- ``` ctrl + [shift] + arrow(←) ```
+ Toggle between the word without shift.If press shift you can select many words as you can.
+ The command is useful mixed with ctrl+d.
 
-``` [shift] + home|end ```
-select from the current position to the head or the end
+- ``` ctrl|shift +  enter ```
+ 'ctrl' means adding a new line and the mouse toggled to the new line.
+
+- ``` [shift] + home|end ```
+ select from the current position to the head or the end
 
 [The article][link] taught me how to toggle between powershell and editor area!
 ctrl + k + s then write down focus terminal
 
 ``` ctrl+shift+e ```
 Toggle to the file manager.
+
+``` F1``` Open Help window
+
+# The meaning of .vscode dir
+It indicates the configuration of current project.
 
 [link]: https://blog.csdn.net/Jeffxu_lib/article/details/86651173
 
