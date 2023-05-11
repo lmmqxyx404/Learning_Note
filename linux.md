@@ -22,6 +22,8 @@ This is slightly more complex.
 When you complete relatice settings.Try the followings commands
 ``` sudo apt update && sudo apt upgrade ```
 ``` export ``` Show the global variable.
+``` env ```
+``` printenv ```
 ``` sudo vim /etc/environment ```
 set proxy for all users
 
