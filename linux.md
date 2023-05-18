@@ -21,6 +21,11 @@ This is slightly more complex.
 [This article][proxy] would help you a lot
 When you complete relatice settings.Try the followings commands
 ``` sudo apt update && sudo apt upgrade ```
+``` export ``` Show the global variable.
+``` env ```
+``` printenv ```
+``` sudo vim /etc/environment ```
+set proxy for all users
 
 ## day2
 ### install the amd drives
@@ -69,6 +74,10 @@ WantedBy=multi-user.target
 ##### 7. ```systemctl enable first.service```
 
 ### day7 study crontab(cron table)
+
+### day8 clear the cargo cache
+``` rm -rf .cargo/.package-cache ```
+This can be useful for cargo blocked.
 
 ## top
 The command can help us get system running information
@@ -145,7 +154,8 @@ This tool is used for dealing with the data. nf means net filter.
 - ## ```ctrl+r```
 
   input former command fastly
-
+- ## ``` xclip```
+  ``` command | xclip -selection clipboard```
 # about service
 ```
 重新加载service文件：systemctl daemon-reload
