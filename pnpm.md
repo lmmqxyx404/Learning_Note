@@ -20,3 +20,9 @@ add a package globally.
 
 ### ``` pnpm up ```
 upgrade the packages of the current project.
+
+## pnpm upgrade itself
+``` pnpm add -g @pnpm/exe ```
+
+## pnpm set or get registry
+``` pnpm set registry ```

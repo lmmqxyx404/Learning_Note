@@ -90,6 +90,8 @@ Here is a useful [link][link3]
 ### cargo-edit
 This can indicate the dependency version
 # About more details
+look the [repository][link4]
+
 ## primitive types
 ### fn
 function pointer
@@ -105,6 +107,8 @@ function pointer
 - When the owner goes out of scope, the value will be dropped.
 
 
+
 [link2]:https://stackoverflow.com/questions/29461693/how-can-i-get-cargo-to-recompile-changed-files-automatically
 [link3]:https://www.jianshu.com/p/cf1b534dbb16
 [link]:https://learnku.com/articles/49977
+[link4]:https://github.com/lmmqxyx404/Rust_Tutorial
