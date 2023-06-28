@@ -66,3 +66,8 @@ before you export, tou must set the secure_file_priv=''
 watch out:
 when you attempt to import a backup sql to a new environment, you should install mysql.
 Then you should create a database and use it.At last, you can use source command.
+
+# about postgresql
+## pay attention to visit remote server.
+set the relative file
+set the firewall
