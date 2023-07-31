@@ -25,4 +25,5 @@ upgrade the packages of the current project.
 ``` pnpm add -g @pnpm/exe ```
 
 ## pnpm set or get registry
-``` pnpm set registry ```
+``` pnpm config set registry <registry-url> ```
+https://registry.npm.taobao.org/ 

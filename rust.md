@@ -106,7 +106,21 @@ function pointer
 - There can only be one owner at a time.
 - When the owner goes out of scope, the value will be dropped.
 
+# about memory management
+each {} is a field. when the filed ends, each value(both stack and heap data) would be droped.
 
+##
+```
+fn main(){
+  let _s = "hello";     // (1)
+  let _ss = String::from("hello"); // (2)
+  let _arr = ["hello";3];    // (3)
+  let _tuple = ("hello",);   // (4)
+  // ...
+}
+```
+1 3 4 都一样
+2 不一样
 
 [link2]:https://stackoverflow.com/questions/29461693/how-can-i-get-cargo-to-recompile-changed-files-automatically
 [link3]:https://www.jianshu.com/p/cf1b534dbb16
