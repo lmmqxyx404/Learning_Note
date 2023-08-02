@@ -109,7 +109,7 @@ function pointer
 # about memory management
 each {} is a field. when the filed ends, each value(both stack and heap data) would be droped.
 
-##
+## about memory disposition
 ```
 fn main(){
   let _s = "hello";     // (1)
@@ -119,8 +119,16 @@ fn main(){
   // ...
 }
 ```
-1 3 4 都一样
-2 不一样
+1 3 4 same. 1 literal string located at global memory. 
+2 different. located at heap.
+
+## about reference data type
+The reference of Rust is a primitive type.It is located in stack, not heap.It stores the address value.
+The address value points the aim.
+
+## Thr core concempt of memory management
+The programmer can only manage the stack memory.
+
 
 [link2]:https://stackoverflow.com/questions/29461693/how-can-i-get-cargo-to-recompile-changed-files-automatically
 [link3]:https://www.jianshu.com/p/cf1b534dbb16
