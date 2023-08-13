@@ -102,7 +102,9 @@ host only
 direct link
 
 ## set no password login
-1. get the user id_rsa.pub.key
+0. pay attention to the file permissions.
+   The id_rsa (private) should be 600.
+1. get the user id_rsa.pub key
 2. try to put the content to the server ```~/.ssh/authorized_keys```
 
 3. ### server ssh config files    ``` /etc/ssh/sshd_config ```
@@ -117,8 +119,15 @@ direct link
       ```
 
    - you can specify the ssh port in the file
- 4. restart the ssh service
+4. restart the ssh service
    ``` /sbin/service sshd restart ```
+
+5. test the ssh connection problem
+   ```ssh -Tvvv git@github.com``` connect to the specofic server address and print debug info..      4
+
+6. use rsa in a new machine.
+pay attention to delete the knownhost files.
+
 ## get the linux system information
 ```cat /etc/xxx-release```
 ```uname -a```
