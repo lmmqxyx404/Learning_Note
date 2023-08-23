@@ -17,5 +17,5 @@ record the note of computer network lab.
 ## Pay attention to the network connection that was selected for listening earliest
 follow your aim.
 
-## Promiscuous managed m4ode
+## Promiscuous managed mode
 Promiscuous mode can capture any data that flows through the network card, without verifying the MAC address
