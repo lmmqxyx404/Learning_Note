@@ -19,3 +19,8 @@ follow your aim.
 
 ## Promiscuous managed mode
 Promiscuous mode can capture any data that flows through the network card, without verifying the MAC address
+
+# 1.about tcp
+
+# 2.about udp
+

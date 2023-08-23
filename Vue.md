@@ -39,7 +39,7 @@
 
 # 后端返回的数据不是总是可靠的，实际开发中要考虑兼容性
 
-# Vue 语法特性
+# Vue syntax feature
 ## SFC single file component
 
 ## 可以为行为绑定动态事件
