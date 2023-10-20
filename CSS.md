@@ -90,3 +90,13 @@ This value creates a new stacking context when the value of z-index is not auto.
 
 ## sticky
 The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements.
+
+# about line-height and font-size
+## content-area
+The height of content area is only relatived with font-size and font-family.There is no relation with line-height
+
+## line-height
+
+## about Pseudo-classes
+### :first-child
+beware that the pseudo-class selector is recursive.
