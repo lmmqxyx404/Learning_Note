@@ -100,3 +100,7 @@ The height of content area is only relatived with font-size and font-family.Ther
 ## about Pseudo-classes
 ### :first-child
 beware that the pseudo-class selector is recursive.
+
+# debug skills
+## delete the half code recursively
+This is a very useful way.
