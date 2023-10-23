@@ -1,9 +1,9 @@
 <!--
  * @Author: Lmmqxyx
  * @Date: 2022-02-10 13:47:27
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-05-16 14:12:52
- * @FilePath: \Learning_Note\JS.md
+ * @LastEditors: lmmqxyx
+ * @LastEditTime: 2023-10-23 14:48:32
+ * @FilePath: \Learning_Note\JavaScript\JavaScript.md
  * @Description: 
 -->
 # 注意，script标签引入资源的时候，顺序非常重要
@@ -43,3 +43,9 @@ There are two mainly ways.
 ## Reference-counting
 
 ## Mark-and-sweep algorithm
+
+# event loop
+## macro task
+Pay attention that using a script tag in a html file would be regarded as starting a macro task.
+
+## micro task

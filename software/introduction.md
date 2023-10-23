@@ -17,3 +17,21 @@ a powerful video player
 
 # zip
 ## 7zip
+
+# browser
+## edge
+
+## chrome
+
+# ssh tool
+## finalshell
+
+# remote desk
+## rustdesk
+
+# network filter
+## wireshark
+
+# cmake
+
+# proto
