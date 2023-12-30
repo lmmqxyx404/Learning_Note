@@ -79,6 +79,14 @@ WantedBy=multi-user.target
 ``` rm -rf .cargo/.package-cache ```
 This can be useful for cargo blocked.
 
+### day9 about ipv6
+` vim /etc/gai.conf `
+` sudo systemctl restart systemd-networkd `
+Set the values of the relevant properties so that IPv6 is prioritized over IPv4 access.
+
+### day10 solve the problem GLIBC_2.18 not found
+upgrade the os.
+
 ## top
 The command can help us get system running information
 
