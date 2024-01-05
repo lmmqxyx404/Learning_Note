@@ -27,6 +27,8 @@ When you complete relatice settings.Try the followings commands
 ``` sudo vim /etc/environment ```
 set proxy for all users
 
+pay attention to delete the proxy if you do not want to use it.
+
 ## day2
 ### install the amd drives
 I suffered a lot.

@@ -41,16 +41,21 @@ Toggle the terminal
 - ``` [shift] + home|end ```
  select from the current position to the head or the end
 
-[The article][link] taught me how to toggle between powershell and editor area!
-ctrl + k + s then write down focus terminal
-
 ``` ctrl+shift+e ```
 Toggle to the file manager.
 
 ``` F1``` Open Help window
+
+- ```ctrl+alt+-```
+go back in ubuntu vscode
+
+
 
 # The meaning of .vscode dir
 It indicates the configuration of current project.
 
 [link]: https://blog.csdn.net/Jeffxu_lib/article/details/86651173
 
+
+[The article][link] taught me how to toggle between powershell and editor area!
+ctrl + k + s then write down focus terminal
