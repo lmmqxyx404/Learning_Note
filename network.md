@@ -27,3 +27,5 @@ Promiscuous mode can capture any data that flows through the network card, witho
 # TCPDUMP
 ver useful tool
 
+# tls
+tls could be regarded as a single layer.

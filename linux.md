@@ -74,6 +74,7 @@ WantedBy=multi-user.target
 ##### 5. ```systemctl status first.service```
 ##### 6. ```systemctl stop first.service```
 ##### 7. ```systemctl enable first.service```
+##### 8. ```systemctl disable first.service```
 
 ### day7 study crontab(cron table)
 
