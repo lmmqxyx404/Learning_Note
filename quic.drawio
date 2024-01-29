@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T15:51:41.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="NcGjl52ZyNLZJSQ9H0BZ" version="21.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-29T07:27:39.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="D5cM_4dfwEVTOxhERYvm" version="21.6.8" type="github" pages="2">
   <diagram name="introduction" id="gTU_fiC9uCinztlKtNxD">
-    <mxGraphModel dx="994" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1041" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,27 +19,54 @@
         <mxCell id="pGVCFB-6JdNTMlc1Q6uC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pGVCFB-6JdNTMlc1Q6uC-4" target="pGVCFB-6JdNTMlc1Q6uC-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ZR0xlA2q5FOj890-I7Zg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pGVCFB-6JdNTMlc1Q6uC-4" target="ZR0xlA2q5FOj890-I7Zg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pGVCFB-6JdNTMlc1Q6uC-4" value="packets" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="410" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eNVd3KL4biIbhG6HjzGN-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pGVCFB-6JdNTMlc1Q6uC-6" target="eNVd3KL4biIbhG6HjzGN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pGVCFB-6JdNTMlc1Q6uC-6" value="frames" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eNVd3KL4biIbhG6HjzGN-1" value="udp" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR0xlA2q5FOj890-I7Zg-1" value="A complete processable unit of QUIC that can be encapsulated in a UDP datagram. One or more QUIC packets can be encapsulated in a single UDP datagram." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="-lDjn80aSrMv3mUM4KTd" name="Packet">
-    <mxGraphModel dx="994" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1041" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-W9dVY8GcaJ5yFOw9uhj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-W9dVY8GcaJ5yFOw9uhj-1">
+        <mxCell id="-W9dVY8GcaJ5yFOw9uhj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-W9dVY8GcaJ5yFOw9uhj-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-W9dVY8GcaJ5yFOw9uhj-1" value="A complete processable unit of QUIC that can be encapsulated in a UDP datagram. One or more QUIC packets can be encapsulated in a single UDP datagram." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-W9dVY8GcaJ5yFOw9uhj-1" value="A complete processable unit of QUIC that can be encapsulated in a UDP datagram. One or more QUIC packets can be encapsulated in a single UDP datagram." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="90" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeJiGss_YFmK6QS9c5mx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeJiGss_YFmK6QS9c5mx-1" target="AeJiGss_YFmK6QS9c5mx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeJiGss_YFmK6QS9c5mx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeJiGss_YFmK6QS9c5mx-1" target="AeJiGss_YFmK6QS9c5mx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeJiGss_YFmK6QS9c5mx-1" value="packet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeJiGss_YFmK6QS9c5mx-2" value="short header&lt;br&gt;1. aimed to minimize overheaed&lt;br&gt;2.&amp;nbsp;after a connection is established and 1-RTT keys are available&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeJiGss_YFmK6QS9c5mx-4" value="long header" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
