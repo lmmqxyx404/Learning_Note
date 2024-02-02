@@ -13,3 +13,8 @@ Note: In some cases, a single event or action can cause a transition through mul
 a packet contains many frames. and at least one frame.
 
 # packet
+
+# program thought
+## fsm
+
+## no lost and no error bit

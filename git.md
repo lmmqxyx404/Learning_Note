@@ -107,7 +107,8 @@ Show the relative tag information
 ``` git push origin <tagname> ```
 push the local tag to origin
 
-# git set proxy
+# git set proxy(deprecated)
+You can use tunnel proxy now.
 ``` git config --global http.https://github.com.proxy http://127.0.0.1:1080 ```
 ``` git config --global https.https://github.com.proxy http://127.0.0.1:1080 ```
 ``` git config --global http.https://domain.com.proxy http://proxyUsername:proxyPassword@proxy.server.com:port ```
@@ -127,6 +128,9 @@ show the remote branch.
 
 # LF or CRLF
 ```git config --global core.autocrlf true|false|input```
+
+# about `sslVerify`
+It is just the same as the tls client verifier setting.
 
 ---------------------
 Live server is important

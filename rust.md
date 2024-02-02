@@ -92,7 +92,7 @@ This can indicate the dependency version
 # About more details
 look the [repository][link4]
 
-## primitive types
+## primitive types(named scalars)
 ### fn
 function pointer
 
@@ -128,6 +128,18 @@ The address value points the aim.
 
 ## Thr core concempt of memory management
 The programmer can only manage the stack memory.
+
+
+# cargo 
+## depoendency version management
+1.2.3  :=  >=1.2.3, <2.0.0
+1.2    :=  >=1.2.0, <2.0.0
+1      :=  >=1.0.0, <2.0.0
+0.2.3  :=  >=0.2.3, <0.3.0
+0.2    :=  >=0.2.0, <0.3.0
+0.0.3  :=  >=0.0.3, <0.0.4
+0.0    :=  >=0.0.0, <0.1.0
+0      :=  >=0.0.0, <1.0.0
 
 
 [link2]:https://stackoverflow.com/questions/29461693/how-can-i-get-cargo-to-recompile-changed-files-automatically
