@@ -9,3 +9,11 @@ read layer.
 
 ## 3. container
 read and write
+
+# common command
+## ps
+docker `container(could ignore)` ps `-al`
+
+## ls
+
+## support pipline

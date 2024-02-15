@@ -90,6 +90,10 @@ Set the values of the relevant properties so that IPv6 is prioritized over IPv4 
 ### day10 solve the problem GLIBC_2.18 not found
 upgrade the os.
 
+### day11 get ip
+`dhclient interface`
+
+
 ## top
 The command can help us get system running information
 
