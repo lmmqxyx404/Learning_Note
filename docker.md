@@ -17,3 +17,8 @@ docker `container(could ignore)` ps `-al`
 ## ls
 
 ## support pipline
+
+# docker-compose
+## about installment
+in windows it willbe installed by default.
+In linux, you should manually install it.

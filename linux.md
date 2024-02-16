@@ -91,7 +91,14 @@ Set the values of the relevant properties so that IPv6 is prioritized over IPv4 
 upgrade the os.
 
 ### day11 get ip
-`dhclient interface`
+```sudo dhclient interface(could be ignored)```
+
+### day12 netplan
+```sudo apt-get install netplan.io```
+```sudo netplan apply```
+Netplan is an indispensable software, without which there would be no related icons on the dock.
+
+### day13 about ubuntu-desktop
 
 
 ## top
