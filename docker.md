@@ -6,6 +6,10 @@
 ## 2. image
 read only.
 read layer.
+### `podman images`
+list local images.
+
+### `podman image`
 
 ## 3. container
 read and write
@@ -17,6 +21,9 @@ docker `container(could ignore)` ps `-al`
 ## ls
 
 ## support pipline
+
+## attach and detach
+use attach can entry the container.
 
 # docker-compose
 ## about installment

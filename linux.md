@@ -99,7 +99,18 @@ upgrade the os.
 Netplan is an indispensable software, without which there would be no related icons on the dock.
 
 ### day13 about ubuntu-desktop
+If you mistakenly delete some dependencies, it's very likely that you will damage your desktop environment,
+resulting in being unable to access the GUI subsequently, and can only enter the shell.
+So you need to reinstall the `ubuntu-desktop`
 
+I want to use python3.11, so i remove the python3.10 by mistake.Then I can not enter ubuntu22.04.
+And get the error:
+```Bluetooth: hci0: Malformed MSFT vendor event: 0x02```
+Then I set the network use the `day11` knowledge first.
+Secondly, I install the `ubuntu-desktop` to solve the problem
+
+### day14 history
+you can use `!index` to run the relative command.
 
 ## top
 The command can help us get system running information
