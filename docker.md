@@ -25,6 +25,16 @@ docker `container(could ignore)` ps `-al`
 ## attach and detach
 use attach can entry the container.
 
+## pull
+pull remote image not containr.
+You'd better to indicate your command 
+
+## run
+Run would build a new instance
+
+## start
+execute the same container
+
 # docker-compose
 ## about installment
 in windows it willbe installed by default.
