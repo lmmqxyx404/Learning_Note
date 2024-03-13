@@ -128,6 +128,10 @@ show the remote branch.
 
 # LF or CRLF
 ```git config --global core.autocrlf true|false|input```
+## true means ingnore the difference between lf and crlf
+
+## sometimes when you changed the crlf setting.It could cause many diffs
+So you should set the conf.then use git to clone
 
 # about `sslVerify`
 It is just the same as the tls client verifier setting.

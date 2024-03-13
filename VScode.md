@@ -46,9 +46,10 @@ Toggle to the file manager.
 
 ``` F1``` Open Help window
 
-- ```ctrl+alt+-```
+```ctrl+alt+-```
 go back in ubuntu vscode
-
+```Alt + -```
+in windows,get the same effect
 
 
 # The meaning of .vscode dir
