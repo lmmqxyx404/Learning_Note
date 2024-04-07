@@ -38,14 +38,34 @@ value
 
 ## about 
 
-# GC (garbage collect)
+# GC (garbage collect) (also means memory management)
 There are two mainly ways.
 ## Reference-counting
 
 ## Mark-and-sweep algorithm
+
+## manually free memory
+You'd better know the all reference of specific memory
+### `obj=null`
+
+### delete all keys.
+```JavaScript
+obj.keys().forEach(e=>{
+    delete obj[e]
+})
+```
 
 # event loop
 ## macro task
 Pay attention that using a script tag in a html file would be regarded as starting a macro task.
 
 ## micro task
+
+# Promise
+## Promise.all()
+
+## Promise.race()
+
+## Promise.allsettled()
+
+## Promise.any()

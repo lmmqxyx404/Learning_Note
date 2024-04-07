@@ -61,6 +61,19 @@ upgrade the package
 ### eslint is a format tool
 There is an [article][link2] about the tool
 
+## prettier
+format tool
+
+## tsx
+Not a file format. It is a useful tool to execute the ts directly.
+
+## fp-ts
+support Option syntax like Rust.
+
+## zx
+Write more powerful script in commad line.
+But you must verify that your env support wsl.
+
 
 [link1]: https://blog.csdn.net/lewky_liu/article/details/87959839
 [link2]: http://obkoro1.com/web_accumulate/accumulate/tool/Eslint%E8%87%AA%E5%8A%A8%E4%BF%AE%E5%A4%8D%E6%A0%BC%E5%BC%8F%E9%94%99%E8%AF%AF.html#vscode%E4%BF%9D%E5%AD%98%E6%97%B6%E8%87%AA%E5%8A%A8%E4%BF%AE%E5%A4%8Deslint%E9%94%99%E8%AF%AF
