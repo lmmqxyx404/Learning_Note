@@ -54,6 +54,9 @@ in windows,get the same effect
 
 # The meaning of .vscode dir
 It indicates the configuration of current project.
+## pay attention to the name of each conf.
+`settins` not `setting`
+
 
 [link]: https://blog.csdn.net/Jeffxu_lib/article/details/86651173
 

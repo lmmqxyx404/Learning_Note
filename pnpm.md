@@ -27,3 +27,8 @@ upgrade the packages of the current project.
 ## pnpm set or get registry
 ``` pnpm config set registry <registry-url> ```
 https://registry.npm.taobao.org/ 
+
+## filter setting
+```pnpm --filter packageName run start```
+
+## `--recursive` to run relative command

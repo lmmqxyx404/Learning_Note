@@ -1,11 +1,3 @@
-<!--
- * @Author: Lmmqxyx
- * @Date: 2022-02-10 13:47:27
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-05-17 16:00:34
- * @FilePath: \Learning_Note\Html.md
- * @Description: 
--->
 # render the data
 it is better to choose class selector when data needs to be rendered.
 需要数据渲染的时候，注意选择标签尽量用类名去选择。
