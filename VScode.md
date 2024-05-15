@@ -58,6 +58,14 @@ It indicates the configuration of current project.
 `settins` not `setting`
 
 
+# about devContainer
+The method would be more and more popular
+
+## think about the relation of local env and container.
+- 本地环境中有VSCode和项目源代码。开发者会在本地的VSCode中编写代码。之所以将源代码放在本地的文件系统中，因为我们将代码和容器分离，即使我们删除了容器，代码的修改也不会丢失。
+- 容器除了包含编译/运行项目代码的环境之外，会挂载(mount)项目源代码，除了挂载源代码，我们很多时候还会挂载数据、编译结果输出文件夹、git credentials等等，VSCode的默认配置会替我们做了。容器中会有VSCode的服务端，服务端将相关信息传递给本地的VSCode，本地VSCode只有一个UI的功能。我们还可以在容器中安装相关的VSCode插件，由于开发环境全部都在容器中，和源代码有关的插件都被安装在容器中。
+
+
 [link]: https://blog.csdn.net/Jeffxu_lib/article/details/86651173
 
 

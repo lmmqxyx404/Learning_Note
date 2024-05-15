@@ -40,4 +40,6 @@ execute the same container
 in windows it willbe installed by default.
 In linux, you should manually install it.
 
-# the most useful app is dev container
+# devContainer
+the most useful app is dev container.
+Try to look up the VScode article in this repo.
