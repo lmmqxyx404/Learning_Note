@@ -50,7 +50,7 @@ Toggle to the file manager.
 go back in ubuntu vscode
 ```Alt + -```
 in windows,get the same effect
-
+`canNavigateBack` reverse is `canNavigateForward`.
 
 # The meaning of .vscode dir
 It indicates the configuration of current project.
