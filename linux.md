@@ -39,7 +39,7 @@ And if you must solve the software version problem.
 Try the following command (pay attention to the =)
 ``` sudo apt install libc6=2.35-0ubuntu3 ```
 
-### day3
+## day3
 #### about shell 
 remember to add the shell file header
 ``` #!/bin/bash ```
@@ -47,14 +47,14 @@ remember to add the shell file header
 #### adjust the default boot menu
 注意，进入recovery模式，可以调整启动顺序
 
-### day4
+## day4
 #### ctrl+alt+t open the shell
 the default path is `/home/user_name/`.
 
-### day5
+## day5
 #### soft and hard link
 
-### day6 learn to write systemd files
+## day6 learn to write systemd files
 ##### 1. write down the service file(named first)
 basic systemd service:
 ```
@@ -76,29 +76,29 @@ WantedBy=multi-user.target
 ##### 7. ```systemctl enable first.service```
 ##### 8. ```systemctl disable first.service```
 
-### day7 study crontab(cron table)
+## day7 study crontab(cron table)
 
-### day8 clear the cargo cache
+## day8 clear the cargo cache
 ``` rm -rf .cargo/.package-cache ```
 This can be useful for cargo blocked.
 
-### day9 about ipv6
+## day9 about ipv6
 ` vim /etc/gai.conf `
 ` sudo systemctl restart systemd-networkd `
 Set the values of the relevant properties so that IPv6 is prioritized over IPv4 access.
 
-### day10 solve the problem GLIBC_2.18 not found
+## day10 solve the problem GLIBC_2.18 not found
 upgrade the os.
 
-### day11 get ip
+## day11 get ip
 ```sudo dhclient interface(could be ignored)```
 
-### day12 netplan
+## day12 netplan
 ```sudo apt-get install netplan.io```
 ```sudo netplan apply```
 Netplan is an indispensable software, without which there would be no related icons on the dock.
 
-### day13 about ubuntu-desktop
+## day13 about ubuntu-desktop
 If you mistakenly delete some dependencies, it's very likely that you will damage your desktop environment,
 resulting in being unable to access the GUI subsequently, and can only enter the shell.
 So you need to reinstall the `ubuntu-desktop`
@@ -109,8 +109,16 @@ And get the error:
 Then I set the network use the `day11` knowledge first.
 Secondly, I install the `ubuntu-desktop` to solve the problem
 
-### day14 history
+## day14 history
 you can use `!index` to run the relative command.
+
+## day15 file system
+device->partition->mount point
+each partition could be different file system type(`nfts` `ext4`)
+each device could be splited to different partition
+
+#### before you operate the partition(resize), you should unmount the partition.
+so you cannot resize your partition basically.Because the partition is in used.
 
 ## top
 The command can help us get system running information
