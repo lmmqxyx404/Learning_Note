@@ -11,6 +11,12 @@ list local images.
 
 ### `podman image`
 
+### `docker images`
+show all local images
+
+### `docker rmi hash`
+delete local image
+
 ## 3. container
 read and write
 
@@ -43,3 +49,6 @@ In linux, you should manually install it.
 # devContainer
 the most useful app is dev container.
 Try to look up the VScode article in this repo.
+
+## pay attention to the right tag
+select the proper tag for the image so that to satisfy the requirement of the project
