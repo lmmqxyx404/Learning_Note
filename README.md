@@ -18,3 +18,8 @@
 准备学习 docker
 重构笔记
 深入学习web3
+
+### 2024
+
+### 2025
+learn more about `nix` `nixos` `flake`
