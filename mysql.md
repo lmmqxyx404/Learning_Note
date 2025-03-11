@@ -71,3 +71,7 @@ Then you should create a database and use it.At last, you can use source command
 ## pay attention to visit remote server.
 set the relative file
 set the firewall
+
+# vector database
+## concept
+Vector databases are well-suited for storing and querying unstructured data, such as text, images, and audio. In many modern applications, data isn't in a structured format but is represented as high-dimensional vectors
