@@ -52,3 +52,5 @@ Try to look up the VScode article in this repo.
 
 ## pay attention to the right tag
 select the proper tag for the image so that to satisfy the requirement of the project
+
+## pay attention to the port forward policy

@@ -1,11 +1,4 @@
-<!--
- * @Author: Lmmqxyx
- * @Date: 2022-02-10 13:47:27
- * @LastEditors: lmmqxyx
- * @LastEditTime: 2023-10-23 14:48:32
- * @FilePath: \Learning_Note\JavaScript\JavaScript.md
- * @Description: 
--->
+
 # 注意，script标签引入资源的时候，顺序非常重要
 
 # 数组原型的遍历方法的三大特征
@@ -69,3 +62,5 @@ Pay attention that using a script tag in a html file would be regarded as starti
 ## Promise.allsettled()
 
 ## Promise.any()
+
+# engineer

@@ -34,3 +34,9 @@ use `Date.now()` to print the component state.
 ## 3.Reduce the times of render as much as possible
  - split the components
  - use Reduce(you can learn the Selector)
+
+## 4. fiber
+
+# about router
+## @tanstack/react-router
+use `@tanstack/router-plugin` and `vite` to generate the file path router.
