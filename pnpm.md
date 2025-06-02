@@ -32,3 +32,9 @@ https://registry.npm.taobao.org/
 ```pnpm --filter packageName run start```
 
 ## `--recursive` to run relative command
+
+
+与 yarn 相比有什么优缺点
+优点， pnpm层级依赖是正确的， yarn 全部平铺开是错误的
+
+缺点  在nextjs 中，结合 workspace 功能，pnpm必须做一些额外配置，才能确保目录访问正确
