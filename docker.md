@@ -20,6 +20,9 @@ delete local image
 ## 3. container
 read and write
 
+## 4. container name
+use the name as the `domain`
+
 # common command
 ## ps
 docker `container(could ignore)` ps `-al`
