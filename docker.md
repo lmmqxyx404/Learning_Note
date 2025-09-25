@@ -57,3 +57,9 @@ Try to look up the VScode article in this repo.
 select the proper tag for the image so that to satisfy the requirement of the project
 
 ## pay attention to the port forward policy
+
+# some useful images
+## 1panel
+
+## stable-diffusion-webui-docker
+[link](https://github.com/simonmcnair/stable-diffusion-webui-docker)
