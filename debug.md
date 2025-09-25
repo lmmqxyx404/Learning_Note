@@ -9,3 +9,13 @@ perhaps there was a stupid mistake made by you.
 
 # 3. try to use Bisection Method to divide the source code
 This way can pinpoint the problem quickly.
+
+# debug skills
+## delete the half code recursively
+This is a very useful way.
+
+
+# debug in frontend
+## 1. must use dev tools.
+
+## 2. try to override the original codes.
